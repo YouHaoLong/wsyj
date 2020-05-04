@@ -1,0 +1,931 @@
+/**************通讯录css样式*****************/
+
+
+
+/*下拉树样式 start*/
+.select_ztree{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.select_ztree .select_ztree_input_icon{
+    height: 28px;
+    line-height: 26px;
+    width: 340px;
+    border: 1px solid #A9A9A9;
+    display: inline-block;
+    position: relative;
+}
+
+
+.select_ztree .select_ztree_input_icon .select_ztree_input{
+    height: 26px;
+    cursor: pointer;
+    width: 90%;
+    border: 0;
+    outline: none;
+}
+
+.select_ztree .fa {
+    cursor: pointer;
+    margin-right: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.select_ztree .select_ztree_centent{
+    width: 430px;
+    height: 300px;
+    border:1px solid #666;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    top: 28px;
+    left: 99px;
+}
+.select_ztree .select-menu-i{
+    transform: rotate(0deg);
+}
+
+/*下拉树样式 end*/
+
+
+
+
+
+.tongxunlu_left{
+    background:#fff;
+    height: 978px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+
+}
+
+
+.TongKuaiXinJin{
+    display: flex;/*弹性布局*/
+}
+.TongKuaiXinJin li {
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 25%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.TongKuaiXinJin li.active {
+    background: #638FFA;
+    color: #fff;
+}
+
+
+
+
+
+
+/*搜索框 搜索 重置*/
+.tongxunlu_sousuokuang{
+    margin-top:20px;
+}
+.tongxunlu_sousuokuang form{
+    width: 98%;
+    margin:0 auto;
+}
+.tongxunlu_sousuokuang .form-control{
+    display: inline-block;
+    width: 70%;
+}
+.tongxunlu_sousuokuang .position_relative_span .glyphicon{
+    position:absolute;
+    top: 5px;
+    left: 8px;
+}
+.tongxunlu_sousuokuang .chaxun input,.tongxunlu_sousuokuang .chongzhi input{
+    width: 65px;
+}
+.tongxunlu_sousuokuang .chaxun .btn,.tongxunlu_sousuokuang .chongzhi .btn{
+    padding: 6px 0px 6px 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************右边通讯录********************/
+.tongxunlu_right{
+    border:1px solid #ccc;
+    background: #fff;
+    height: 978px;
+    margin-left:0.5%;
+    margin-top: 0.5%;
+}
+
+
+/*<!--排序 导入 导出 删除 黑名单 -->*/
+.pai_ru_chu_shan_hei{
+    background:#F5F5F5;
+    border-bottom:1px solid #ccc;
+}
+.pai_ru_chu_shan_hei ul li{
+    float:left;
+    margin-right:10px;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor:pointer;
+}
+.pai_ru_chu_shan_hei ul li i{/*背景图标*/
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    vertical-align: sub;
+}
+
+
+
+
+/*整合图标，减少服务器压力，减少加载次数*/
+
+/*排序 蓝*/
+.pai_ru_chu_shan_hei ul li i.paixu_background{
+    background-position:0 -113px;
+}
+/*排序 白*/
+.pai_ru_chu_shan_hei ul li.active i.paixu_background{
+    background-position:-24px -113px;
+}
+
+/*导入 蓝*/
+.pai_ru_chu_shan_hei ul li i.daoru_background{
+    background-position:0 -143px;
+}
+/*导入 白*/
+.pai_ru_chu_shan_hei ul li.active i.daoru_background{
+    background-position:-24px -143px;
+}
+
+/*导出 蓝*/
+.pai_ru_chu_shan_hei ul li i.daochu_background{
+    background-position:0 -171px;
+}
+/*导出 白*/
+.pai_ru_chu_shan_hei ul li.active i.daochu_background{
+    background-position:-24px -171px;
+}
+
+/*删除 蓝*/
+.pai_ru_chu_shan_hei ul li i.shanchu_background{
+    background-position:0 -198px;
+}
+/*删除 白*/
+.pai_ru_chu_shan_hei ul li.active i.shanchu_background{
+    background-position:-24px -198px;
+}
+
+/*黑名单*/
+.pai_ru_chu_shan_hei ul li i.heimingdan_background{
+    background-position:0 -227px;
+}
+
+/*属性管理 蓝*/
+.pai_ru_chu_shan_hei ul li i.shuxing_background{
+    background-position: 0px -326px;
+}
+/*属性管理 白*/
+.pai_ru_chu_shan_hei ul li.active i.shuxing_background{
+    background-position: -24px -326px;
+}
+/*人员管理 蓝*/
+.pai_ru_chu_shan_hei ul li i.renyuan_background{
+    background-position: 0px -349px;
+}
+/*人员管理 白*/
+.pai_ru_chu_shan_hei ul li.active i.renyuan_background{
+    background-position: -24px -349px;
+}
+
+
+
+
+
+
+
+
+
+/*<!--单位详细信息--><!--人员详细信息-->*/
+.xiangxixinxi{
+    /*宽度统一，高度统一*/
+    width: 48.5%;
+    height:910px;
+    border:1px solid #D0DDFD;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*所有i都使用这张背景图标集合图 不同标签使用不同定位即可*/
+div.xiangxixinxi div.xiangxi_neirong p i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 0 none;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    outline: none;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+}
+
+/*定位星标*/
+div.xiangxixinxi div.xiangxi_neirong p i.xingbiao_biaoji_caise{/*蓝色星*/
+    background-position: -69px -26px;
+    vertical-align: middle;
+    margin-left: 10px;
+    display: inline-block;
+}
+div.xiangxixinxi div.xiangxi_neirong p i.xingbiao_biaoji_huise{/*灰色星*/
+    background-position: -106px -26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+/*添加按钮图标 +*/
+div.xiangxixinxi div.xiangxi_neirong p i.Tianjia_anNiu_qiehuan{
+    background-position: -157px -26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/*删除按钮图标 -*/
+div.xiangxixinxi div.xiangxi_neirong p i.Shanchu_anNiu_qiehuan{
+    background-position: -198px -26px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.tianjiawenbenkuang{
+    display:block;
+    margin-left:99px;
+    margin-top:10px;
+}
+
+
+/*单位详细信息页面样式*/
+.xiangxixinxi_biaoti_bg_hui{/*顶部颜色 灰*/
+    background:#F5F5F5;
+    border-bottom:1px solid #D0DDFD;
+}
+.xiangxixinxi_biaoti_bg_lan{/*顶部颜色 蓝*/
+    background:#D0DDFD;
+    border-bottom:1px solid #D0DDFD;
+}
+
+.text_color_999{/*灰色文字*/
+    color:#999;
+}
+
+.xiangxi_neirong{/*添加内边距和高度，设置溢出滚动条*/
+    padding:10px 16px;
+    height: 810px;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.xiangxixinxi .xiangxi_neirong input,
+.xiangxixinxi .xiangxi_neirong textarea{
+    /*统一设定 xiangxixinxi 类下的 input textarea 的宽度*/
+    width: 340px;
+    padding:0 5px;
+}
+.xiangxixinxi .xiangxi_neirong textarea{
+    height: 200px;
+}
+
+
+.anniu_color_border{/*按钮样式*/
+    border:1px solid #638FFA;
+    background: #638FFA;
+    border-radius:5px;
+    padding:4px 15px;
+    color:#fff;
+}
+
+.xiangxixinxi .anniu_color_border{/*修改按钮样式*/
+    margin-right:20px;
+    width: 105px;
+    font-size: 16px;
+}
+.xiangxixinxi .xiangxi_neirong p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*<!--排序  导出  导入 删除  黑名单 的页面布局-->*/
+
+
+/*<!--单位排序--><!--人员排序-->*/
+.Paixu{
+    width: 96%;
+    height: 900px;
+    margin:0 auto;
+    border:1px solid #D0DDFD;
+    margin-top: 20px;
+}
+
+
+.ShangXiaCeng{
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #D5D5D5;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ShangXiaCeng_anniuyangshi button{
+    border:1px solid #D5D5D5;
+    background: #fff;
+    padding:0 15px;
+    border-radius: 5px;
+    color:#D5D5D5;
+}
+.ShangXiaCeng_anniuyangshi button.active{
+    color:#7EA2FB;
+    border-color:#7EA2FB;
+}
+
+
+.Neirong_paixu{
+    width: 90%;
+    height: 700px;
+    margin:0 auto;
+}
+
+.Neirong_paixu div.Paixudeneirong{
+    width: 70%;
+    border-right:2px solid #D5D5D5;
+    border-bottom:1px solid #D5D5D5;
+    height: 698px;
+    overflow:hidden;
+}
+.Neirong_paixu div.Paixudeneirong ul li{
+    margin:0;
+    cursor:pointer;
+    padding:5px 0;
+}
+
+/*人员图标*/
+.Neirong_paixu div.Paixudeneirong ul li span.tubiao_touxiang_caise{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    outline: none;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    background-position: -0px -26px;
+    margin-right:2px;
+}
+/*单位图标*/
+.Neirong_paixu div.Paixudeneirong ul li span.ico_open{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    outline: none;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    background-position: 0px 0px;
+    margin-right:2px;
+}
+.Neirong_paixu div.Paixudeneirong ul li.active{
+    background:#CCDAFA;
+}
+
+
+.Neirong_paixu div.shangxiajiantoutubiao{
+    width:30%;
+    height: 698px;
+    border-bottom:1px solid #D5D5D5;
+    padding-top: 205px;
+}
+
+
+.Paixu i{/*背景图标 排序*/
+    display: inline-block;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    vertical-align: sub;
+}
+.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i{/*上下层箭头*/
+    width: 18px;
+    height: 18px;
+    margin-right:5px;
+}
+.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.shangYiceng_hui{/*灰上箭头*/
+    background-position: -185px -216px;
+}
+.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.shangYiceng_cai{/*彩上箭头*/
+    background-position: -220px -216px;
+}
+.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.xiaYiceng_hui{/*灰下箭头*/
+    background-position: -154px -216px;
+}
+.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.xiaYiceng_cai{/*彩下箭头*/
+    background-position: -119px -216px;
+}
+
+
+.Paixu .Neirong_paixu .shangxiajiantoutubiao i{/*排序箭头*/
+    width: 44px;
+    height: 52px;
+    cursor:pointer;
+}
+
+.Paixu .Neirong_paixu .shangxiajiantoutubiao button{
+    width: 44px;
+    margin: 0 auto;
+    display: inherit;
+    border: none;
+    background: none;
+    outline:none;
+}
+
+.Paixu .Neirong_paixu .shangxiajiantoutubiao i.paixu_shangjiantou{
+    background-position: -106px -122px;
+}
+
+.Paixu .Neirong_paixu .shangxiajiantoutubiao i.paixu_xiajiantou{
+    background-position: -172px -122px;
+}
+.Paixu .Neirong_paixu .shangxiajiantoutubiao button:last-child{
+    margin-top:90px;
+}
+
+
+
+/*导出和导入*/
+.DaoChu,.DaoRu{
+    box-shadow:darkgrey 0px 0px 30px 0px;
+    width: 90%;
+    margin:0 auto;
+    border:1px solid #D0DDFD;
+    margin-top: 120px;
+}
+
+/*删除*/
+.ShanChu{
+    box-shadow:darkgrey 0px 0px 30px 0px;
+    width: 60%;
+    margin:0 auto;
+    border:1px solid #D0DDFD;
+    margin-top: 120px;
+}
+
+/*黑名单*/
+.HeiMingDan{
+    border:1px solid #D0DDFD;
+    width: 90%;
+    margin:0 auto;
+    margin-top:20px;
+    height: 900px;
+}
+.HeiMingDan_List{
+    width: 90%;
+    margin:0 auto;
+    border:1px solid #ccc;
+    margin-top:10px;
+    height: 673px;
+    overflow:hidden;
+}
+
+
+.HeiMingDan_List .table > thead > tr > td,
+.HeiMingDan_List .table > tbody > tr > td{
+    border-left:none;
+    border-right:none;
+}
+
+
+
+/*电话话快捷组*/
+.DianHua_KuaiJieZu,.TianJiaKuaiJie_Zu_RenYuan,.TianJia_KuaiJieZu{
+    height: 900px;
+    width: 98%;
+    margin:0 auto;
+    border:1px solid #D0DDFD;
+    background:#F5F5F5;
+    margin-top:10px;
+}
+
+
+
+/*<!--添加快捷组人员-->*/
+/*<!--添加和移除-->*/
+.TianjiaHeYiChu{
+    width:100%;
+    margin:20px auto;
+    height: 720px;
+}
+.TianjiaHeYiChu>div{
+    float:left;
+}
+.TianjiaHeYiChu_left,.TianjiaHeYiChu_right,.TianjiaHeYiChu_center{
+    height: 720px;
+}
+.TianjiaHeYiChu_center{
+    width: 9%;
+    margin:0 0.5%;
+    text-align: center;
+}
+.TianjiaHeYiChu_center p button{
+    padding:5px 5px;
+}
+.TianjiaHeYiChu_center p button i{
+    background: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+/*添加*/
+.TianjiaHeYiChu_center p button i.jianTou_right_tianJia{
+    background-position:-154px -275px;
+}
+/*移除*/
+.TianjiaHeYiChu_center p button i.jianTou_left_yichu{
+    background-position:-122px -275px;
+}
+/*移除全部*/
+.TianjiaHeYiChu_center p button i.shanChu_quanBu{
+    background-position:-186px -275px;
+}
+
+
+
+.TianjiaHeYiChu_center button{
+    width: 100%;
+    font-size: 16px;
+}
+
+.TianjiaHeYiChu_left,.TianjiaHeYiChu_right{
+    width: 45%;
+    background:#fff;
+    border:1px solid #ccc;
+}
+
+
+
+
+
+/*右边区域*/
+.tianjia_and_yichu{
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+}
+.tianjia_and_yichu li{
+    cursor:pointer;
+    border-bottom: 1px solid #D0DDFD;
+    margin-top: 5px;
+}
+
+.tianjia_and_yichu li.active{
+    background:#D0DDFD;
+}
+
+.tianjia_and_yichu p{
+    margin:0;
+}
+
+.tianjia_and_yichu p span{
+    font-size: 14px;
+}
+
+.tianjia_and_yichu p>span{
+    display: inline-block;
+    width: 48%;
+    padding: 0 0 0 10px;
+}
+.tianjia_and_yichu p>span>span{
+    color:#000;
+}
+
+
+
+/********下拉框 用以前的修改************/
+.select-menu{/*最外层div*/
+    width: 100%;
+    margin-bottom:20px;
+    position:relative;
+}
+.select-menu span{/*span设置为行内块*/
+    display:inline-block;
+}
+.select-menu .select-menu-div{
+    height:28px;line-height:26px;
+    width:340px;border:1px solid #A9A9A9;
+    /*设为行内块，设置相对定位*/
+    display: inline-block;
+    position:relative;
+}
+.select-menu .fa{/*小三角样式切换*/
+    cursor:pointer;
+    margin-right:5px;
+    position:absolute;
+    right:0;top:0;
+    font-size: 24px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.icon-jiantouxia{
+    transform:rotate(90deg);
+}
+.select-menu .select-menu-i{/*转动小三角的class方法*/
+    transform:rotate(0deg);
+}
+.select-menu input.select-menu-input{/*input的设置*/
+    height: 26px;
+    cursor: pointer;
+    width:90%;
+    border:0;
+    outline: none;
+}
+.select-menu .select-menu-ul{/*ul的设置*/
+    width:340px;
+    text-align:left;
+    border:1px solid #A9A9A9;
+    background:#fff;
+    position:absolute;
+    z-index:1;
+    top: 28px;
+    left: 98px;
+    height: 145px;
+    overflow-y: auto;
+
+}
+.select-menu .select-menu-ul li{/*li的设置*/
+    padding:2% 0 2% 3%;
+}
+.select-menu .select-menu-ul li:hover{/*鼠标悬停样式*/
+    background:#3F9EEA;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+
+
+
+/*进度条*/
+
+#faxes_content .progress{
+    margin-bottom:0;
+    border-radius: 15px;
+    height: 12px;
+    width:65%;
+    float:left;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************通讯录页面样式*******************/
+/*通用button样式*/
+.button_border_text_padding{
+    /*只设置了边框文字颜色和内边距的button*/
+    color:#7EA2FB;
+    border-color:#7EA2FB;
+    background:#fff;
+    padding:0 8px;
+    border-radius: 5px;
+    border: 1px solid #7ea2fb;
+}
+
+
+.XuanZeTanKuang{/*通讯录选择弹框样式*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#fff;
+    box-shadow: darkgrey 0px 0px 30px 0px;
+    z-index: 100;
+}
+
+
+
+.TongKuaiXinJin li:last-child{
+    border-right: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*假树样式*/
+/*树节点样式 不用管这里的样式，只是写来做个样子***********************************************************************************************************************************/
+ul.ztree_s_jiashu{  width: 100%;  height: 100%;  overflow-y:auto;  }
+ul.ztree_s_jiashu li {/*li的统一样式*/
+    padding: 0;  margin: 0;  list-style: none;  line-height: 18px;  text-align: left;  white-space: nowrap;  font-size: 14px;  padding-right: 2px;  }
+.font_weight_bold{  font-weight: bold;  }
+ul.ztree_s_jiashu li ul { /*ul统一样式*/
+    margin: 0;  padding: 0 0 0 18px;  }
+ul.ztree_s_jiashu li a {/*a统一样式*/
+    padding: 1px 3px 0 0;  margin: 0 10px 0 0;  cursor: pointer;  height: 16px;  line-height: 16px;  color: #333;  background-color: transparent;  text-decoration: none;  vertical-align: top;  display: inline-block;  }
+/*button样式*/
+.ztree_s_jiashu li button {/*引入背景图*/
+    width: 18px;  height: 18px;  vertical-align: middle;  border: 0 none;  cursor: pointer;  background-color: transparent;  background-repeat: no-repeat;  background-attachment: scroll;  outline:none;  background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);  }
+.ztree_s_jiashu li i{  cursor:pointer;  }
+.ztree_s_jiashu li button.ico_open {/*文件图标*/
+    margin-right: 2px;  background-position: 0px 0px;  vertical-align: top;  }
+/*<!--图标 人名 星标-->*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children{  width: 100%;  min-height:30px;  margin:10px 0;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button{/*指定宽高*/
+    width: 14px;  height: 14px;  }
+div.tubiao_renming_xingbiao span,div.tubiao_renming_xingbiao{  cursor:pointer;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_huise{/*灰色图标*/
+    background-position: -33px -26px;  vertical-align:middle;  margin-right:10px;  margin-bottom: 3px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_caise{/*彩色图标*/
+    background-position: -0px -26px;  vertical-align:middle;  margin-right:10px;  margin-bottom: 3px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_huise{/*星标灰色*/
+    background-position: -106px -26px;  vertical-align:middle;  margin-left:10px;  margin-bottom: 3px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_caise{/*星标彩色*/
+    background-position: -69px -26px;  vertical-align:middle;  margin-left:10px;  margin-bottom: 3px;  }
+/*<!--名片信息-->*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi{
+    border:1px solid #ccc;  min-height:30px;  width: 100%;  line-height: 24px;  }
+/*中间分隔线*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.zhongjianfengexian{
+    border-left:1px solid #ccc;  padding:0 10px;  margin-top: 10px;  margin-bottom:10px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.col-md-5{
+    margin-top: 10px;  margin-bottom:10px;  padding: 0 10px;  }
+/*名片移动电话和移动图标*/
+div.mingpianxinxi button.yidongdianhuatubiao{
+    background-position: -0px -51px;  float: right;  }
+div.mingpianxinxi button.zuojitubiao{
+    background-position: -0px -76px;  float: right;  }
+/*<!--图标 人名 星标--> 选中状态 人头变蓝 背景变色 边框变色*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.active{  background:#D0DDFD;  }
+/*切换有颜色边框的样式*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi_cai{
+    border:1px solid #D0DDFD;  min-height: 30px;  width: 100%;  line-height: 24px;  }
+/*树的高度动漫*/
+/*树节点样式*/
+ul.ztree_s_jiashu{  width: 100%;  height: 100%;  overflow-y:auto;  }
+/*button样式*/
+.ztree_s_jiashu li button {/*引入背景图*/
+    width: 18px;  height: 18px;  vertical-align: middle;  border: 0 none;  cursor: pointer;  background-color: transparent;  background-repeat: no-repeat;  background-attachment: scroll;  outline:none;  background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);  }
+.ztree_s_jiashu li i{  cursor:pointer;  }
+.ztree_s_jiashu li button.ico_open {/*文件图标*/
+    margin-right: 2px;  background-position: 0px 0px;  vertical-align: top;  }
+/*<!--图标 人名 星标-->*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children{  width: 100%;  min-height:30px;  margin:10px 0;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button{/*指定宽高*/
+    width: 14px;  height: 14px;  }
+div.tubiao_renming_xingbiao span,div.tubiao_renming_xingbiao{  cursor:pointer;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_huise{/*灰色图标*/
+    background-position: -33px -26px;  vertical-align:middle;  margin-right:10px;  margin-bottom: 3px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_caise{/*彩色图标*/
+    background-position: -0px -26px;  vertical-align:middle;  margin-right:10px;  margin-bottom: 3px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_huise{/*星标灰色*/
+    background-position: -106px -26px;  vertical-align:middle;  margin-left:10px;  margin-bottom: 3px;  }
+
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_caise{/*星标彩色*/
+    background-position: -69px -26px;  vertical-align:middle;  margin-left:10px;  margin-bottom: 3px;  }
+/*<!--名片信息-->*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi{
+    border:1px solid #ccc;  min-height:30px;  width: 100%;  line-height: 24px;  }
+/*中间分隔线*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.zhongjianfengexian{  border-left:1px solid #ccc;  padding:0 10px;  margin-top: 10px;  margin-bottom:10px;  }
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.col-md-5{  margin-top: 10px;  margin-bottom:10px;  padding: 0 10px;  }
+/*名片移动电话和移动图标*/
+div.mingpianxinxi button.yidongdianhuatubiao{  background-position: -0px -51px;  float: right;  }
+div.mingpianxinxi button.zuojitubiao{  background-position: -0px -76px;  float: right; }
+/*<!--图标 人名 星标--> 选中状态 人头变蓝 背景变色 边框变色*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.active{  background:#D0DDFD;  }
+/*切换有颜色边框的样式*/
+ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi_cai{  border:1px solid #D0DDFD;  min-height: 30px;  width: 100%;  line-height: 24px;  }
+/*树的高度动漫*/
+.ShouSuo{/*收缩*/
+    height:0;  opacity:0;  overflow:hidden;  transition:all .5s linear;  }
+.ZhanKai{/*展开*/
+    height: auto;  opacity:1;  }
+/********************************************************************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

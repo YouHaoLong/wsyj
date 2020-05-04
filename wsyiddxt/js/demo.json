@@ -1,0 +1,47 @@
+{
+	"max": 0.0,
+	"min": 0.0,
+	"reportInfectiouscardCount": [{
+		"sicknessName": "#ffcccc",
+		"address": "<div style='line-height:16px;text-align:center;'><div>宝安区</div><div><span onclick='a(this)' style='font-size:14px;'>2例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#eb412d",
+		"address": "<div style='line-height:16px;text-align:center;'><div>大鹏新区</div><div><span onclick='a(this)' style='font-size:14px;'>26例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ff9999",
+		"address": "<div style='line-height:16px;text-align:center;'><div>福田区</div><div><span onclick='a(this)' style='font-size:14px;'>10例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#eb412d",
+		"address": "<div style='line-height:16px;text-align:center;'><div>光明新区</div><div><span onclick='a(this)' style='font-size:14px;'>27例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ffcccc",
+		"address": "<div style='line-height:16px;text-align:center;'><div>龙岗区</div><div><span onclick='a(this)' style='font-size:14px;'>1例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ff9999",
+		"address": "<div style='line-height:16px;text-align:center;'><div>龙华区</div><div><span onclick='a(this)' style='font-size:14px;'>6例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ffcccc",
+		"address": "<div style='line-height:16px;text-align:center;'><div>罗湖区</div><div><span onclick='a(this)' style='font-size:14px;'>3例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ffcccc",
+		"address": "<div style='line-height:16px;text-align:center;'><div>南山区</div><div><span onclick='a(this)' style='font-size:14px;'>3例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#ff9999",
+		"address": "<div style='line-height:16px;text-align:center;'><div>坪山新区</div><div><span onclick='a(this)' style='font-size:14px;'>5例</span></div></div>",
+		"count": 0.0
+	}, {
+		"sicknessName": "#da0000",
+		"address": "<div style='line-height:16px;text-align:center;'><div>盐田区</div><div><span onclick='a(this)' style='font-size:14px;'>37例</span></div></div>",
+		"count": 0.0
+	}],
+	"errorCode": 1000,
+	"errorMsg": "====疾病分布查询成功"
+}

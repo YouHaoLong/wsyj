@@ -1,0 +1,153 @@
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+.xitong_neirong ul li button{
+    padding:10px;
+}
+.xitong_neirong ul li{
+    margin-top:24px;
+}
+.xitong_neirong ul li:first-child{
+    margin-top:0px;
+}
+
+
+
+.sezhixuanxiang{
+    background: #fff;
+    height: 750px;
+}
+.xitong_neirong ul.sezhixuanxiang li{
+    width:100%;
+    padding:10px;
+    text-align:center;
+    cursor:pointer;
+}
+.xitong_neirong ul.sezhixuanxiang li.active{
+    background: url(../images/left_nav_bgcolor.png) no-repeat;
+    background-size: 100% 100%;
+}
+.xitong_neirong ul.sezhixuanxiang li.active a{
+    color:#fff;
+}
+
+
+#xitongsezhi span{/*在系统设置里所有按钮和span的文字大小*/
+    font-size:16px;
+
+}
+#xitongsezhi{
+    margin-top:15px;
+
+
+}
+
+#xitongsezhi .container-fluid{
+   padding-right:0;
+}
+
+.row{/*清楚默认样式*/
+    margin-right: 0;
+    margin-left:0;
+}
+
+
+
+/*设置切换页面*/
+div.interface_settings,div.service_configuration,div.advanced_configuration,div.system_messages{
+    position:absolute;
+    height: 750px;
+    background: #fff;
+    top:0;
+    left:0;
+    overflow: auto;
+    border:1px solid #A6C0CF;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.SetBounds div.active{
+    z-index: 10;
+}
+
+/*界面设置*/
+
+.interface_settings div{
+    margin-top:10px;
+}
+
+.interface_settings div:first-child{
+    margin-top:0 ;
+}
+
+
+
+/*<!--服务配置-->*/
+
+.service_configuration .col-md-12 .combo-select ul li:first-child{
+    margin-top: 0;
+}
+
+.service_configuration span{
+   line-height: 50px;
+}
+
+
+
+/*<!--高级配置-->*/
+.function_mapping{
+    border-collapse:collapse;
+    text-align: center;
+}
+
+
+.function_mapping td{
+    padding:5px 15px 5px 15px;
+}
+
+
+.advanced_configuration .advanced_margin{
+    margin-top:10px;
+}
+.advanced_configuration .advanced_margin span{
+    margin-top:10px;
+}
+
+
+/*添加按钮*/
+.mapping_add{
+    background: #0067B4;
+    border:1px solid #6DC7E1;
+    color:#fff;
+    border-radius:5px;
+    padding:1px 15px 1px 15px;
+    background: linear-gradient(to bottom, #6DC7E1,#3CB3C9);
+}
+.mapping_add:hover{
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

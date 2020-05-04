@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>聚集性疫情电子地图</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <style type="text/css">
+    html,body{
+        margin:0;
+        width:100%;
+        height:100%;
+        
+    }
+    
+    .cheng{height: 1000px;}
+    #map{
+        width:100%;
+        height:100%;
+    }
+    #panel {
+        position: absolute;
+        top:30px;
+        left:10px;
+        z-index: 999;
+        color: #fff;
+    }
+    #login{
+        position:absolute;
+        width:300px;
+        height:40px;
+        left:50%;
+        top:50%;
+        margin:-40px 0 0 -150px;
+    }
+    #login input[type=password]{
+        width:200px;
+        height:30px;
+        padding:3px;
+        line-height:30px;
+        border:1px solid #000;
+    }
+    #login input[type=submit]{
+        width:80px;
+        height:38px;
+        display:inline-block;
+        line-height:38px;
+    }
+    #typePanel div{
+    	font-size:12px;
+    }
+    #typePanel div:hover{
+    	background-color:gray;
+    	cursor:pointer;
+    }
+    #typePanel div img{
+    	height:32px;
+    }
+    .isTrue{
+    	float: left;
+   		height: 38px;
+	    width: 57px;
+    	background:url(${themePath}/fuse/newPage/images/20171220090432.png);
+    	cursor:pointer;
+    }
+    .isTrue:active{
+    	background:url(${themePath}/fuse/newPage/images/20171220090555.png);
+    }
+    .layui-form *{
+    	display:inline;
+    }
+    .layui-form-item:after{
+    	display:inline;
+    }
+    #typePanel{
+    	visibility:hidden;
+    }
+    #typePanelbutton{
+    	visibility:visible;
+    }
+    #conditionsPanel{
+    	visibility:hidden;
+    }
+    #conditionsPanel button{
+    	visibility:visible;
+    }
+    .clickDivStyle{
+    	background-color:#E5A786;
+    	color:white;
+    }
+    table{
+    	background-color:inherit;
+    	color:inherit;
+    }
+    table tr{
+    	background-color:inherit;
+    	color:inherit;
+    }
+  </style>
+  <!--<link rel="stylesheet" href="${themePath}/fuse/newPage/layui/css/layui.css" media="all">
+  <script src="${themePath}/fuse/newPage/layui/layui.js"></script>
+  <script src="${themePath}/fuse/newPage/js/My97DatePicker/WdatePicker.js"></script>-->
+  
+	
+</head>
+<body>
+	  <div class="row">
+	  	<div class="col-md-2" style="width: 13%;">88888888888</div>
+	  	<div class="col-md-10 cheng" style="width: 87%;">
+	  		<div id="map"></div>
+   	
+	
+	
+				<div><div style="width:25px;height:15px;padding:1px;background-color:#FDCBCB;float:left;"></div>&nbsp;<span id="first">0 - 0</span></div>
+				<div><div style="width:25px;height:15px;padding:1px;background-color:#FE9D8D;float:left;"></div>&nbsp;<span id="second">0 - 0</span></div>
+				<div><div style="width:25px;height:15px;padding:1px;background-color:#FA7159;float:left;"></div>&nbsp;<span id="third">0 - 0</span></div>
+				<div><div style="width:25px;height:15px;padding:1px;background-color:#EB412D;float:left;"></div>&nbsp;<span id="four">0 - 0</span></div>
+				<div><div style="width:25px;height:15px;padding:1px;background-color:#D90000;float:left;"></div>&nbsp;<span id="five">0 - 0</span></div>
+	  	</div>
+	  </div>
+    
+	
+	
+	
+	
+
+</body>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hXRfpxorvjGUjRVCs6TLMnWRziXKBBKb"></script>
+	<script type="text/javascript" src="map/szLayers.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	
+ 
+	
+</script>
+    <script type="text/javascript">
+   
+	
+	  var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    var markerClusterer;
+    var markers = [];
+    var map = new BMap.Map("map");                        // 创建Map实例
+    map.centerAndZoom(new BMap.Point(114.153533, 22.652629), 11);     // 初始化地图,设置中心点坐标和地图级别
+    map.disableScrollWheelZoom();                        //禁止滚轮放大缩小
+    map.disableDragging();     //禁止拖拽
+    map.disableDoubleClickZoom();	//禁止双击
+		map.setCurrentCity("深圳");  
+		 $.getJSON("js/demo.json",function(data){
+		 		addStreetAreaColor(map,data);
+		 })
+  </script>
+</html>
+

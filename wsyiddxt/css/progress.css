@@ -1,0 +1,105 @@
+
+
+.fax_state{
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 4px;
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  z-index: 30;
+	background: #0a2957;
+	border-color: #393;
+	text-align: center;
+}
+.fax_state{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 30;
+	background: #666;
+	border-color: #393;
+	text-align: center;
+}
+.loader-container {
+  height: 6px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  margin-top: -3px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(left, #c0ff5b, #ff0000);
+  background-image: -moz-linear-gradient(left, #c0ff5b, #ff0000);
+  background-image: -o-linear-gradient(left, #c0ff5b, #ff0000);
+  background-image: -ms-linear-gradient(left, #c0ff5b, #ff0000);
+  background-image: linear-gradient(left, #c0ff5b, #ff0000);
+  box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 3px 0 0 3px;
+}
+.loader-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin-top: -0.5em;
+  margin-right: -1em;
+  background-image: -webkit-linear-gradient(top, #000000, #212121);
+  background-image: -moz-linear-gradient(top, #000000, #212121);
+  background-image: -o-linear-gradient(top, #000000, #212121);
+  background-image: -ms-linear-gradient(top, #000000, #212121);
+  background-image: linear-gradient(top, #000000, #212121);
+}
+.loader-container.done:after {
+  background: Red;
+}
+.fax_state p{font-size: 2em;color: #ff0000;margin: 50px auto;}
+.fax_state p i{font-size: 3em;color: #ff0000;}
+.run .runner {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(top, #000000, #212121);
+  background-image: -moz-linear-gradient(top, #000000, #212121);
+  background-image: -o-linear-gradient(top, #000000, #212121);
+  background-image: -ms-linear-gradient(top, #000000, #212121);
+  background-image: linear-gradient(top, #000000, #212121);
+  animation: loader 5s linear;
+}
+.meter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+  margin-top: .3em;
+  color: #ff0000;
+  animation: meter 5s linear;
+  text-shadow: 0 -1px 0 #333333;
+}
+.meter:after {
+  content: "%";
+}
+@keyframes loader {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@keyframes meter {
+  0% {
+    color: #5bd8ff;
+  }
+  100% {
+    color: #ff0000;
+  }
+}

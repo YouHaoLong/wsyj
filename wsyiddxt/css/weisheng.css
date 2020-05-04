@@ -1,0 +1,213 @@
+.menu_content{bottom: 30px;right: 116px;width: 500px;background: #fff;}
+.headquarters02 {
+  position: relative;
+}
+.headquarters02 label{float: right;padding-top: 4px;padding-right: 10px;margin-bottom: 0 !important;}
+.headquarters02 .title_tab {
+  height: 25px;
+  line-height: 25px;
+}
+.headquarters02 .title_tab li {
+  float: left;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 20px;
+  /*border-bottom: 1px solid #ccc;*/
+  margin-bottom: 10px;
+}
+.headquarters02 .title_tab li a {
+  color: #333;
+  font-size: 18px;
+}
+.headquarters02 .title_tab li a span {
+  float: left;
+  font-size: 30px;
+  color: #03b5ff;
+  margin: 0 10px 0 14px;
+}
+.headquarters02 .title_tab .li_ac {
+	/*border-bottom: 1px solid #ccc;*/
+  background: #488cff;
+  color: #fff;
+}
+.headquarters02 .title_tab .li_ac a{color: #fff;}
+.headquarters02 .head_box .head_con {
+  display: none;
+}
+.headquarters02 .head_box .head_con .search {
+	float: left;width: 96%;background: #f5f5f5;padding: 8px 10px;margin-left: 2%;
+}
+.headquarters02 .head_box .head_con .search p {
+  height: 25px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.headquarters02 .head_box .head_con .search p label i {
+  color: #ccc;
+  font-size: 24px;
+  float: left;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.headquarters02 .head_box .head_con .search p input {
+	height: 22px;
+	width: 90%;
+	padding: 5px;
+	outline: none;
+	font-size: 14px;
+	border: none;
+	background: transparent;
+	display: block;
+	padding: 4px;
+	padding-left: 16px;
+}
+.headquarters02 .head_box .head_con .friend_group {
+  height: 650px;
+  overflow: auto;
+  float: left;
+  width: 100%;
+  margin-top: 26px;
+}
+.headquarters02 .head_box .head_con:nth-of-type(2) .friend_group{height: 176px;}
+.headquarters02 .head_box .head_con .friend_group .group .group_name {
+  display: block;
+  padding-left: 9px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.headquarters02 .head_box .head_con .friend_group .group .group_name i {
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 11px;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list {
+  display: none;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend {
+  padding-left: 56px;
+  cursor: pointer;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend p {
+  float: left;
+  margin-top: 9px;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend p i {
+  font-size: 16px;
+  color: #333;
+  line-height: 22px;
+  font-style: normal;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend p em {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+  font-style: normal;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend .gr_icon {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend .gr_icon li {
+  float: left;
+  padding: 0;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend .gr_icon li i {
+  font-size: 18px;
+  color: #1594da;
+  padding-right: 20px;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend .gr_icon li i:hover {
+  color: #00b3ff;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend:hover {
+  background:  url("../images/group_bg_08.png") no-repeat;
+}
+.headquarters02 .head_box .head_con .friend_group .group .friend_list .friend_ac {
+  background: url("../images/group_bg_08.png") no-repeat;
+}
+.headquarters02 .head_box .head_con .call {
+  margin-left: 140px;
+  width: 80px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 3px;
+  background-color: #509af8;
+  text-align: center;
+  float: left;
+}
+.headquarters02 .head_box .head_con .call a {
+  color: #fff;
+  font-size: 16px;
+}
+.headquarters02 .head_box .head_con .call:hover {
+  background-color: #7DDDDC;
+}
+.headquarters02 .head_box .head_con .call:hover a {
+  color: #fff;
+}
+.headquarters02 .head_box .head_con:first-child {
+  display: block;
+}
+
+/*事件进程样式*/
+.progress_top{width: 500px;border-radius: 2px;box-shadow: 1px 1px 20px rgba(0,0,0,.2);max-height: 940px;}
+.progress_top .title{height: 36px;line-height: 36px;background: #053b83;color: #fff;}
+.progress_top .title .icon-xiala1 ,.progress_top .title .icon-xiala2-01{display: block;float: left;padding-left: 10px;cursor: pointer;}
+.progress_top .title .icon-guanbi1{display: block;float: right;padding-right: 10px;cursor: pointer;}
+.progress_top .title h3{text-align: center;font-size: 16px;line-height: 36px;}
+.progress_content{padding: 20px;}
+.progress_content .progress_list{border: 1px solid #ccc;padding: 12px;}
+.progress_content .progress_list ul{width: 100%;margin-bottom: 12px;}
+.progress_content .progress_list li{display: inline-block;font-size: 14px;}
+.progress_content .progress_list .state{color: #ff7101;}
+.progress_content .progress_list .remark{padding-right: 12px;position: relative;cursor: pointer;}
+.progress_content .progress_list .remark i{color: #56b5e5;font-size: 20px;}
+.progress_content .progress_inner{border-bottom: 1px solid #ccc;margin-bottom: 12px;}
+.progress_content .progress_inner:last-child{border-bottom: none;margin-bottom: 0;}
+.progress_content .progress_inner p{line-height: 20px;margin-bottom: 12px;color: #999;font-size: 12px;}
+.fix_img{border: 1px solid #e7e7e7;width: 90px;height: 70px;padding: 2px;}
+.fix_img img{width: 86px;height: 66px;}
+
+.remark_mood{width: 284px;background: #fff;border-radius: 2px;box-shadow: 1px 1px 20px rgba(0,0,0,.2);position: absolute;right: 480px;}
+.mood_title{padding-top: 10px;}
+.mood_title .icon-guanbi1{display: block;float: right;padding-right: 10px;cursor: pointer;color: #333;font-size: 20px;}
+.remark_textarea{padding: 10px 15px;padding-bottom: 0;}
+.remark_textarea textarea{resize: none;margin-bottom: 8px;}
+.remark_textarea button{float: right;margin-right: 0px;margin-bottom: 12px;height: 25px;line-height: 25px;border-radius: 4px;}
+
+/*树的css*/
+.tree {color:#333;}
+.tree li,
+.tree li > a,
+.tree li > span {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.tree li a {
+    color:#333;
+    text-decoration: none;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.tree li a:hover {
+    background-color: #dae8ff;
+    /*color: #fff;*/
+}
+
+.tree .active {
+    /*background-color: #34495E;*/
+    /*color: white;*/
+}
+
+.tree .active a {
+    /*color: #fff;*/
+}
+.tree .folder{padding-right: 10px;margin-top: -6px;}

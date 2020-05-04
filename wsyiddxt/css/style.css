@@ -1,0 +1,166 @@
+/*滚动条重新设置*/
+.TimeLine_scrollbarss{max-height:774px;height: 848px;}
+
+/*时间轴样式*/
+.TimeLine_bgcolor{/*整个页面背景颜色*/
+	background:url("../images/log/content-bg-bai.png");
+	width: 100%;
+}
+.TimeLine_content{
+	position:relative;
+	width: 100%;
+	min-height:770px;
+}
+.TimeLine_content .TimeLine_main{/*蓝色竖线*/
+	background: url("../images/log/line-bg.png") repeat-y 264px 0px;
+	margin-top:10px;
+}
+.TimeLine_content .TimeLine_title{/*大时钟图标*/
+	height: 42px;
+	background: url("../images/log/clock-bai.png") no-repeat 244px 0;
+}
+
+
+.TimeLine_year{/*时间轴节点页面*/
+	position:relative;
+	z-index: 1;
+}
+
+/*中圆圈图标*/
+.TimeLine_year .TimeLine_zhongyunaquan{
+	margin-top: 20px;
+	background: url("../images/log/circle-bai.png") no-repeat 251px 0;
+	width: 100%;
+	height: 30px;
+}
+.TimeLine_year .TimeLine_zhongyunaquan p,.TimeLine_year .TimeLine_zhongyunaquan span{
+	color:#91A3E3;
+
+}
+.TimeLine_year .TimeLine_list{
+	margin:10px 0;
+	 position:relative;
+	 -webkit-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	 -moz-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	 -ms-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	 -o-transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s;
+	 transition:height 1s cubic-bezier(0.025,0.025,0.000,1.115),opacity 1s
+ }
+.TimeLine_year .TimeLine_list ul li:first-child{
+	margin-top: 15px;
+}
+.TimeLine_year .TimeLine_list .TimeLine_xiaoyuanquan{
+	background: url("../images/log/circle-smo.png") no-repeat 258px 0;
+	width: 100%;
+	min-height: 30px;
+	margin-top:5px;
+}
+
+/*聊天气泡*/
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao{
+	border:1px solid #ccc;
+	width: 46%;
+	min-height: 100px;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao p,
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao hr{
+	width: 95%;
+	margin:0 auto;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao p{
+	margin-left:10px;
+}
+
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao p.text-one{
+	color:#91A3E3;
+	font-size:14px;
+	margin:5px 0 5px 10px;
+}
+
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao p.text-two{
+	color:#000;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .TimeLine_qipao p.text-three{
+	color:#999;
+	font-size: 14px;
+	line-height:20px;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .fr{
+	margin-right: 5px;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .fl{
+	margin-left: 5px;
+}
+
+
+.TimeLine_list ul .TimeLine_xiaoyuanquan .right_jiantou,
+.TimeLine_list ul .TimeLine_xiaoyuanquan .left_jiantou{
+	position: absolute;
+	width: 10px !important;
+	height: 10px;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .left_jiantou{
+	right: 247px;
+	top: 3px;
+	background: url("../images/qieTu/left_jiantou.png") no-repeat;
+}
+.TimeLine_list ul .TimeLine_xiaoyuanquan .right_jiantou{
+	left:237px;
+	background: url("../images/qieTu/right_jiantou.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*首页事件进程时间轴样式*/
+/*首页事件进程搜索框样式*/
+.xingxichulijilusousuokuang{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	padding-top:20px;
+}
+.xingxichulijilusousuokuang>div{
+	width: 95%;
+	height: 39px;
+	background:#F3F6FD;
+	margin:0 auto;
+
+}
+/*.xingxichulijilusousuokuang>div div{*/
+	/*float:left;*/
+	/*margin-top:1%;*/
+	/*margin-left: 1%;*/
+	/*width: 98%;*/
+/*}*/
+
+/*.xingxichulijilusousuokuang>div div input{*/
+	/*width: 100%;*/
+	/*border:none;*/
+/*}*/
+
+

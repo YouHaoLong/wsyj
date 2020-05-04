@@ -1,0 +1,20 @@
+/* For treemenu.js */
+
+.treemenu li { list-style: none; }
+
+.treemenu .toggler {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.treemenu .toggler:before {
+    display: inline-block;
+    margin-right: 2pt;
+}
+li.tree-empty{padding-left: 34px !important;position: relative;}
+li.tree-empty a{margin-left: 23px !important;}
+/*li.tree-empty:hover{background-color: #dae8ff;}*/
+li.tree-empty > .toggler { color: #aaa; }
+li.tree-empty > .toggler:before { content: "";background: url(../../images/weisheng/bingli.png) no-repeat;width: 17px;height: 15px;position: absolute;left: 38px;top: 8px; }
+li.tree-closed > .toggler:before { content: "";background: url(../../images/weisheng/shouqi.png) no-repeat;width: 20px;height: 15px;background-position:0px 4px;}
+li.tree-opened > .toggler:before { content: "";background: url(../../images/weisheng/zhankai.png) no-repeat;width: 20px;height: 15px;background-position:0px 6px; }

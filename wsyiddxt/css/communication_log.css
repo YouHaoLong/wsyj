@@ -1,0 +1,2367 @@
+/*.margin-left-15{*/
+    /*margin-left:15px;*/
+/*}*/
+
+/*!*标签样式*!*/
+/*.pfn{*/
+    /*width: 100%;*/
+    /*background: #fff;*/
+    /*border-bottom: 3px solid #2B97DF;*/
+/*}*/
+/*.pfn li{*/
+    /*width: 24%;*/
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+    /*text-align: center;*/
+    /*cursor:pointer;*/
+    /*background: #fff;*/
+    /*border-bottom: 2px solid #2B97DF;*/
+    /*border-top: 1px solid #2B97DF;*/
+    /*border-left: 1px solid #2B97DF;*/
+    /*border-right: 1px solid #2B97DF;*/
+/*}*/
+
+/*.pfn li.active{*/
+    /*background: #2B97DF;*/
+/*}*/
+/*.pfn li.active a{*/
+    /*color:#fff;*/
+/*}*/
+
+/*.pfn li,.record li{*/
+    /*float:left;*/
+/*}*/
+/*.pfn li a{*/
+    /*color:#2B97DF;*/
+    /*font-size:28px;*/
+/*}*/
+/*.pfn li a:hover{*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.pfn li a:link {*/
+    /*text-decoration: none;*/
+/*}*/
+/*.pfn li a:visited {*/
+
+    /*text-decoration: none;*/
+/*}*/
+
+
+
+
+
+
+
+/*#container_y{*/
+    /*position:relative;*/
+    /*top:-40px;*/
+/*}*/
+/*#content1,#content2,#content3{*/
+    /*position: absolute;*/
+    /*top:90px;*/
+    /*background: #fff;*/
+    /*width: 100%;*/
+    /*height: 750px;*/
+    /*overflow:auto;*/
+/*}*/
+
+
+/*!*标签内容*!*/
+/*.tab-center{*/
+    /*text-align:center;*/
+/*}*/
+/*.record {*/
+    /*width: 100%;*/
+    /*height: 68px;*/
+/*}*/
+/*.record li{*/
+    /*margin-top:20px;*/
+    /*margin-bottom:20px;*/
+/*}*/
+
+/*.record li input{*/
+    /*margin-left:20px;*/
+    /*width: 340px;*/
+/*}*/
+/*.record li select{*/
+    /*width: 200px;*/
+/*}*/
+/*.bofang_zanting_one,.bofang_zanting_two{*/
+    /*width: 24px;*/
+    /*height: 24px;*/
+    /*position:absolute;*/
+    /*top: 20px;*/
+    /*left: 124px;*/
+/*}*/
+/*.bofang_zanting_one{*/
+    /*background: url(../images/qieTu/suspend_icon.png) no-repeat;*/
+/*}*/
+/*.bofang_zanting_two{*/
+    /*background: url(../images/qieTu/play_icon.png) no-repeat;*/
+/*}*/
+
+/*!*查询按钮*!*/
+/*.Enquiry_call_record{*/
+    /*background: #169BD5;*/
+    /*border:1px solid #169BD5;*/
+    /*color:#fff;*/
+    /*border-radius:5px;*/
+    /*padding:1px 20px 1px 20px;*/
+/*}*/
+/*.Enquiry_call_record:hover{*/
+    /*color:#fff;*/
+/*}*/
+
+
+
+
+/*#communication_log>div{!*设置宽度填满页面*!*/
+    /*width: 87%;*/
+/*}*/
+
+/*.pfn{*/
+    /*display: block;*/
+    /*height: 61px;*/
+/*}*/
+
+
+
+
+/*!*全部 呼入电话 呼出电话 全部 接收传真 发送传真 全部 接收短信 发送短信*!*/
+/*.Phone_classification,.faxes_classification,.note_classification{*/
+    /*background: #fff;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*z-index: 15;*/
+/*}*/
+/*.Phone_classification li,.faxes_classification li,.note_classification li{*/
+    /*float:left;*/
+    /*width: 15%;*/
+    /*margin-top:20px;*/
+    /*text-align:center;*/
+    /*background: #fff;*/
+/*}*/
+
+/*.Phone_classification li a,.faxes_classification li a,.note_classification li a{*/
+    /*color:#51575C;*/
+/*}*/
+/*.Phone_classification li.active,.faxes_classification li.active,.note_classification li.active{*/
+    /*padding-bottom:3px;*/
+    /*border-bottom:2px solid #2B97DF;*/
+/*}*/
+/*.Phone_classification li.active a,.faxes_classification li.active a,.note_classification li.active a{*/
+    /*color:#2B97DF;*/
+/*}*/
+
+
+/*.gongnengfenleibiaoqian{*/
+    /*position: relative;*/
+/*}*/
+
+/*.gongnengfenleibiaoqian .active{*/
+    /*z-index: 20;*/
+/*}*/
+
+
+
+/*!*输入框 状态栏 搜索框*!*/
+/*.xmzwdw{*/
+    /*position:relative;*/
+/*}*/
+
+/*.xmzwdw input{*/
+    /*width: 400px;*/
+/*}*/
+
+/*.xmzwdw span{*/
+    /*width: 30px;*/
+    /*height: 28px;*/
+    /*background: #2B97DF;*/
+    /*position: absolute;*/
+    /*color:#fff;*/
+    /*text-align: center;*/
+    /*line-height: 28px;*/
+    /*right: -36px;*/
+/*}*/
+
+
+
+
+
+
+
+/*#Telephone_history table td,#faxes_history table td,#note_history table td{!*设置表格文字的大小并居中*!*/
+    /*font-size: 14px;*/
+    /*text-align:center;*/
+    /*border:none;!*不要边框*!*/
+/*}*/
+
+
+
+/*!*分页样式 通用*!*/
+
+/*.table_paging ul li:first-child{*/
+    /*margin-left:230px;*/
+/*}*/
+/*.table_paging ul li{*/
+    /*float:left;*/
+    /*margin-left:5px;*/
+/*}*/
+
+/*.table_paging ul li,.table_paging ul li a{*/
+    /*font-size:14px;*/
+
+/*}*/
+/*.table_paging ul li a{*/
+    /*border:1px solid #2B97DF;*/
+    /*background: #2B97DF;*/
+    /*padding:5px;*/
+    /*color:#fff;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*.table_paging .jumpPage{*/
+    /*width: 60px;*/
+/*}*/
+
+/*.ban {*/
+    /*opacity: .4;*/
+/*}*/
+
+
+
+
+
+/*!*电话回拨的拨号面板 传真 短信*!*/
+
+/*#bohaomianban,.bohaomianbans,#Fax_Preview,#note_Preview,.note_Preview{*/
+    /*border:1px solid #D1D7DA;*/
+    /*height: 579px;*/
+    /*text-align: center;*/
+/*}*/
+
+
+/*!*发送传真面板*!*/
+/*.bfn{*/
+    /*border:1px solid #D1D7DA;*/
+    /*height: 579px;*/
+/*}*/
+
+/*.fasongchuanzhen_neirong{*/
+    /*border-bottom: 1px solid #ccc;*/
+    /*font-size:14px;*/
+    /*color:#ccc;*/
+    /*height: 40px;*/
+
+    /*position: relative;*/
+/*}*/
+/*.fasongchuanzhen_neirong span{*/
+    /*margin-right:5px;*/
+/*}*/
+/*.fasongchuanzhen_neirong input[type="text"]{*/
+    /*width:80% ;*/
+    /*color:#000;*/
+    /*height: 30px;*/
+    /*border:none;*/
+    /*outline:none;*/
+/*}*/
+/*.fasongchuanzhentupianyulanqu{*/
+    /*border:2px solid #ccc;*/
+    /*width: 96%;*/
+    /*height: 300px;*/
+    /*margin:0 auto;*/
+    /*margin-top:30px;*/
+/*}*/
+
+
+
+/*#chongfachuangzhentupian,#chongfachuangzhentupian li,#chongfachuangzhentupian li img{!*重发图片*!*/
+    /*width: 100%;*/
+    /*height:100%;*/
+/*}*/
+
+/*!*重发分页图片*!*/
+/*.chongfafenye{*/
+    /*margin-top:20px;*/
+/*}*/
+/*.chongfafenye div:first-child{*/
+    /*margin-left:210px;*/
+/*}*/
+/*.chongfafenye ul li,.chongfafenye div{*/
+    /*float:left;*/
+    /*text-align: center;*/
+    /*margin-left:1%;*/
+    /*cursor:pointer;*/
+/*}*/
+/*.chongfafenye ul li{*/
+    /*border:1px solid #ccc;*/
+    /*width: 24px;*/
+    /*height: 24px;*/
+    /*border-radius:5px;*/
+
+/*}*/
+/*.chongfafenye ul li.active{*/
+    /*background: #2B97DF;*/
+    /*color:#fff;*/
+/*}*/
+
+
+
+
+
+/*!*对话模式*!*/
+/*.duihuamoshi p{*/
+    /*font-size: 14px;*/
+    /*color:#2B97DF;*/
+/*}*/
+/*.duihuamoshi p:nth-child(2){*/
+    /*color:#000;*/
+/*}*/
+
+/*.duihuamoshi div div{*/
+    /*margin-top:10px;*/
+/*}*/
+
+
+
+
+
+
+
+/*#bohaomianban p{*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    /*margin-top:20px;*/
+/*}*/
+/*.bohaomianbans p{*/
+    /*font-size: 24px;*/
+    /*margin-top:20px;*/
+/*}*/
+
+/*!*右上角的添加小按钮*!*/
+/*#bohaomianban .xiaoanniu,#note_Preview .xiaoanniu,.note_Preview .xiaoanniu{*/
+    /*float:right;*/
+    /*margin:5px 5px 0 0;*/
+/*}*/
+/*.bohaomianbans .xiaoanniu,#note_Preview .xiaoanniu,.note_Preview .xiaoanniu{*/
+    /*float:right;*/
+    /*margin:5px 5px 0 0;*/
+/*}*/
+/*#bohaomianban .xiaoanniu a,#note_Preview .xiaoanniu a,.note_Preview .xiaoanniu a{*/
+    /*border:1px solid #B4BDC2;*/
+    /*color:#B4BDC2;*/
+    /*padding: 0px 7px 3px 7px;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.bohaomianbans .xiaoanniu a,#note_Preview .xiaoanniu a,.note_Preview .xiaoanniu a{*/
+    /*border:1px solid #B4BDC2;*/
+    /*color:#B4BDC2;*/
+    /*padding: 0px 7px 3px 7px;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border-radius: 50%;*/
+/*}*/
+
+
+
+/*!*座机801和802*!*/
+/*.zuoji_801and802 div{*/
+    /*width: 48%;*/
+    /*background:#2B97DF;*/
+    /*color:#fff;*/
+    /*font-size:36px;*/
+    /*padding: 10px 0px;*/
+    /*cursor:pointer;*/
+/*}*/
+
+
+
+/*!*表格防止溢出隐藏通用设置*!*/
+/*#Telephone_history table,#faxes_history table,#note_history table{*/
+    /*width:100%;*/
+    /*table-layout:fixed;!* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 *!*/
+/*}*/
+/*#faxes_history table tbody tr td,#Telephone_history table tbody tr td,#note_history table tbody tr td{*/
+    /*word-break:keep-all;!* 不换行 *!*/
+    /*white-space:nowrap;!* 不换行 *!*/
+    /*overflow:hidden;!* 内容超出宽度时隐藏超出部分的内容 *!*/
+    /*text-overflow:ellipsis;!* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用*!*/
+    /*padding: 8px 0px;*/
+/*}*/
+
+/*!*第一个带图标的td的样式*!*/
+/*.tupianyumingzi span{*/
+    /*float:left;*/
+    /*margin-left:28px;*/
+/*}*/
+
+/*!*传真预览*!*/
+/*#Fax_Preview .Fax_images{!*图片展示区*!*/
+    /*border:3px solid #cccccc;*/
+    /*width: 90%;*/
+    /*height: 300px;*/
+    /*margin:0 auto;*/
+    /*margin-top:90px;*/
+/*}*/
+/*#Fax_Preview .Fax_images img{!*图片展示区*!*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*#Fax_Preview .Fax_buttom{*/
+    /*margin-top:125px;*/
+    /*margin-left:80px;*/
+/*}*/
+/*#Fax_Preview .Fax_buttom ul{*/
+
+/*}*/
+
+/*#Fax_Preview .Fax_buttom ul li{*/
+    /*float:left;*/
+    /*margin-left:5px;*/
+/*}*/
+
+
+/*#Fax_Preview .Fax_buttom ul li a{*/
+    /*border:1px solid #D4D4D4;*/
+    /*padding:5px 15px 5px 15px;*/
+    /*border-radius: 5px;*/
+    /*color:#464646;*/
+/*}*/
+/*#Fax_Preview .Fax_buttom ul li.active a,#Fax_Preview .Fax_buttom ul li:last-child ul li.active a{*/
+    /*background: #2B97DF;*/
+    /*color:#fff;*/
+/*}*/
+
+
+
+/*!*回复短信面板*!*/
+/*#note_Preview .recipients,.note_Preview .recipients{*/
+    /*min-height: 40px;*/
+    /*line-height: 40px;*/
+
+/*}*/
+/*#note_Preview .recipients ul li,.note_Preview .recipients ul li{*/
+    /*float:left;*/
+    /*margin-right:5px;*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*#note_Preview .remarkC1,.note_Preview .remarkC1{*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*border:1px solid transparent;*/
+    /*float: left;*/
+    /*resize: none;*/
+    /*margin-bottom: 0px;*/
+    /*overflow: hidden;*/
+    /*font-size: 16px;*/
+    /*color: #000;*/
+    /*outline: none;*/
+/*}*/
+
+/*#note_Preview .tonghuabeizhu,.note_Preview .tonghuabeizhu{*/
+    /*border-top:1px solid #D5DADD;*/
+    /*border-bottom:1px solid #D5DADD;*/
+    /*margin-bottom:5px;*/
+/*}*/
+
+
+/*!*回发区域*!*/
+/*.postback{*/
+    /*width: 100%;*/
+    /*float:left;*/
+/*}*/
+/*.postback .addImagess{*/
+    /*display: inline-block;*/
+    /*width: 50px;*/
+    /*height: 14px;*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    /*background: #f8f8f8;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+
+
+/*}*/
+
+/*.postback .files{*/
+    /*position: absolute;*/
+    /*top: -1px;*/
+    /*left: -1px;*/
+    /*width: 40px;*/
+    /*height: 14px;*/
+    /*opacity: 0;*/
+    /*cursor:pointer;*/
+
+/*}*/
+/*.postback .text-details{*/
+    /*width: 50px;*/
+    /*height:14px;*/
+    /*line-height: 0;*/
+/*}*/
+
+/*.postback .text-details img{*/
+    /*float:left;*/
+/*}*/
+
+
+/*!*消息记录*!*/
+/*.message_logging{*/
+    /*float:right;*/
+    /*width: 80px;*/
+    /*line-height: 1;*/
+/*}*/
+
+/*.message_logging a{*/
+    /*font-size: 12px;*/
+    /*color:#898C9D;*/
+    /*position:relative;*/
+    /*left: -10px;*/
+/*}*/
+
+
+/*!*回发内容区域*!*/
+
+/*#note_Preview .remarkC2{*/
+    /*width: 100%;*/
+    /*height: 255px;*/
+    /*border:1px solid transparent;*/
+    /*float: left;*/
+    /*resize: none;*/
+    /*margin-bottom: 0px;*/
+    /*overflow: hidden;*/
+    /*font-size: 16px;*/
+    /*color: #000;*/
+    /*outline: none;*/
+/*}*/
+
+
+
+/*!*回发按钮*!*/
+/*.huifaanniu{*/
+    /*width:100%;*/
+    /*float:left;*/
+/*}*/
+/*.huifaanniu button{*/
+    /*float:right;*/
+    /*background:#2B97DF;*/
+    /*border:1px solid #2B97DF;*/
+    /*color:#fff;*/
+    /*border-radius:5px;*/
+    /*padding:5px 20px 5px 20px;*/
+/*}*/
+
+
+
+
+
+/*textarea{*/
+    /*resize:none;*/
+/*}*/
+
+
+
+
+
+
+
+/*!*********************通讯管理页面*******************!*/
+
+
+/*!*标签样式*!*/
+/*#Communication_management>div{*/
+    /*width: 87%;*/
+/*}*/
+
+/*.Tab_Utilities{*/
+    /*width: 100%;*/
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+    /*margin-bottom:1%;*/
+/*}*/
+/*.Tab_Utilities li{*/
+    /*float:left;*/
+    /*height: 100%;*/
+    /*margin-right:1%;*/
+    /*background: #999;*/
+/*}*/
+/*.Tab_Utilities li.active{*/
+    /*background: #2B97DF;*/
+/*}*/
+/*.Tab_Utilities li:nth-child(4){*/
+    /*margin-right:0;*/
+/*}*/
+/*.Tab_Utilities li a{*/
+    /*height: 100%;*/
+    /*display: block;*/
+    /*color:#fff;*/
+    /*padding:0 150px;*/
+    /*font-size: 24px;*/
+/*}*/
+
+
+/*!*内容页面*!*/
+/*#Communication{*/
+    /*position:relative;*/
+/*}*/
+
+/*#Communication>div{*/
+    /*position: absolute;*/
+    /*background: #fff;*/
+    /*height:830px;*/
+    /*width: 99%;*/
+    /*margin-left:1%;*/
+/*}*/
+
+
+
+
+/*!*搜索单位的文本框样式*!*/
+
+/*.Searchforunit{*/
+    /*width:90%;*/
+    /*margin:0 auto;*/
+    /*height:40px;*/
+    /*background:#F3F6FD;*/
+    /*margin-top: 20px;*/
+    /*padding-top:5px;*/
+/*}*/
+
+/*.Searchforunit>div{*/
+    /*width:95%;*/
+    /*margin:0 auto;*/
+    /*height: 30px;*/
+    /*background: #fff;*/
+    /*border-radius:15px;*/
+    /*text-align: center;*/
+/*}*/
+/*.Searchforunit>div>input{*/
+    /*width: 90%;*/
+    /*border:none;*/
+    /*outline:none;*/
+    /*height: 30px;*/
+/*}*/
+
+
+
+
+/*.Searchforunit-zuqun{*/
+    /*width: 80%;*/
+    /*margin-left: 47px;*/
+    /*height: 40px;*/
+    /*background: #F3F6FD;*/
+    /*margin-top: 20px;*/
+    /*padding-top: 5px;*/
+    /*position:relative;*/
+/*}*/
+/*.Searchforunit-zuqun>div{*/
+    /*width:95%;*/
+    /*margin:0 auto;*/
+    /*height: 30px;*/
+    /*background: #fff;*/
+    /*border-radius:15px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.Searchforunit-zuqun>div>input{*/
+    /*width: 90%;*/
+    /*border:none;*/
+    /*outline:none;*/
+    /*height: 30px;*/
+/*}*/
+/*.Searchforunit-zuqun>button{*/
+    /*position:absolute;*/
+    /*top: 6px;*/
+    /*right: -110px;*/
+/*}*/
+
+
+/*!*树形列表样式*!*/
+/*.TreeList{*/
+    /*width:90%;*/
+    /*margin:0 auto;*/
+    /*max-height:700px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+/*!*********************************************陈泳帮我写的css样式 在此样式上再修改其他页面样式********************************************!*/
+/*.chat{padding-left: 0;padding-right: 0;width: 87%;}*/
+/*.chat_nav li{float: left;display: block;width: 24.4%;margin-right: 0.8%;text-align: center;height: 84px;background: #999;color: #fff;line-height: 84px;cursor: pointer;}*/
+/*.chat_nav li:last-child{margin-right: 0;}*/
+/*.chat_nav .ac{background: #3e9eea;}*/
+/*!*.chat_inner{margin-left: 1%;margin-top: 18px;background: #fff;width: 99%;float: left;height: 880px;padding: 26px 30px;}*!*/
+
+/*dl{margin-bottom: 0;}*/
+/*dt:hover{background: #f5f5f5;}*/
+/*.menu strong{font-size: 20px;font-weight: 500;color: #333;cursor: pointer;}*/
+/*.menu i{font-size: 26px;color: #333;cursor: pointer;margin-right: 6px;}*/
+/*.friend_list{padding-left: 30px;color: #333;font-size: 16px;line-height: 32px;}*/
+/*.friend_list02{padding-left: 30px;padding-top:10px;clear: both;line-height: 32px !important;}*/
+/*.friend_list02:hover{background: #f5f5f5;cursor: pointer;}*/
+
+/*.eait_list li{margin-left: 20px !important;display: block;float: left;line-height: 37px;font-size: 16px;font-weight: 500;color: #3f9eea;cursor: pointer;}*/
+/*.eait_list02 li{line-height: 32px;}*/
+
+/*!*查看部门成员样式 start*!*/
+
+/*!*右边新增单位样式*!*/
+/*.addChat_inner{height: 800px;border-radius: 2px;margin-right: 20px; margin-top: 20px; box-shadow: 1px 1px 30px rgba(0,0,0,.3);}*/
+/*.addChat_inner .title{background: url(../images/bg_red.png) no-repeat;background-size: 100% 100%;}*/
+/*.addChat_inner .title h3{color: #fff;height: 68px;line-height: 68px;margin-top: 0;margin-bottom: 0;font-size: 24px;}*/
+
+/*!*右边新增人员样式*!*/
+/*.addChat_inner_renyuna{height: 800px;border-radius: 2px;box-shadow: 1px 1px 30px rgba(0,0,0,.3);margin-right: 20px; margin-top: 20px;}*/
+/*.addChat_inner_renyuna .title{background: url(../images/bg_blue.png) no-repeat;background-size: 100% 100%;}*/
+/*.addChat_inner_renyuna .title h3{color: #fff;height: 68px;line-height: 68px;margin-top: 0;margin-bottom: 0;font-size: 24px;}*/
+
+/*.addChat_inner_shuxing{height: 800px;border-radius: 2px;box-shadow: 1px 1px 30px rgba(0,0,0,.3);margin-right: 20px; margin-top: 20px;}*/
+/*.addChat_inner_shuxing .title{background: url(../images/bg_violet.png) no-repeat;background-size: 100% 100%;}*/
+/*.addChat_inner_shuxing .title h3{color: #fff;height: 68px;line-height: 68px;margin-top: 0;margin-bottom: 0;font-size: 24px;}*/
+
+
+
+
+
+/*!*弹出框的样式*!*/
+/*.check_content{padding: 30px;}*/
+/*.check_content .check_inner{border: 1px solid #eee;border-radius: 2px;width: 100%;height: 682px;padding: 18px 36px;position: relative;}*/
+/*.check_content .check_inner li{line-height: 40px;}*/
+/*.check_content .check_inner .left{width: 90px;text-align: right;}*/
+
+
+/*.m_l90{margin-left: 90px;}*/
+/*.dis_b{display: block;}*/
+/*.check_content .check_inner .mid_name{width: 194px;text-align: left;}*/
+/*.check_content .check_inner .unit{line-height: 30px;}*/
+/*.check_content .check_inner .unit p{margin-bottom: 0;}*/
+/*.tab_unit{margin-top: 20px;border-top: 1px solid #eee;float: left;}*/
+/*.tab_unit .ac{background: #3f9eea;color: #fff;}*/
+/*.tab_unit li{display: block;float: left;height: 38px;line-height: 38px;padding: 0 20px;cursor: pointer;}*/
+/*.check_inner .table > thead > tr > th{text-align: center;}*/
+/*.check_inner .table > tbody > tr > td{font-size: 16px;}*/
+/*.check_inner .table-responsive{max-height: 246px;border-bottom: 1px solid #eee;}*/
+/*.check_inner .btns{text-align: right;margin-top: 25px;position: absolute;right: 36px;bottom: 20px;}*/
+/*.check_inner .btns .btn{color: #fff;}*/
+/*.check_inner .btns .first_btn{background: #999 !important;}*/
+/*.check_inner .btns .two_btn{background: #3f9eea;}*/
+
+/*.check_inner .btns .three_btn ,*/
+/*.check_inner .btns .thour_btn ,*/
+/*.check_inner .btns .btn{background: #3f9eea;}*/
+
+
+
+
+
+
+
+
+
+
+/*!*查看部门成员样式 end*!*/
+/*!*新增部门样式 start*!*/
+/*!*.select-menu,.select-menu-1,.select-menu-2{*!*/
+    /*!*cursor:pointer;*!*/
+    /*!*width: 100%;*!*/
+    /*!*position:relative;*!*/
+    /*!*float: left;*!*/
+    /*!*margin-bottom:10px;*!*/
+/*!*}*!*/
+/*!*.select-menu label,.select-menu-1 label,.select-menu-2 label{*!*/
+    /*!*display: block;*!*/
+    /*!*float: left;*!*/
+    /*!*line-height: 40px;*!*/
+    /*!*font-weight: normal;*!*/
+    /*!*width: 30%;*!*/
+/*!*}*!*/
+/*!*.select-menu-div,.select-menu-div-1,.select-menu-div-2{*!*/
+    /*!*height:40px;*!*/
+    /*!*width:70%;*!*/
+    /*!*border:1px solid #ccc;*!*/
+    /*!*line-height:40px;*!*/
+    /*!*float: left;*!*/
+/*!*}*!*/
+/*!*.select-this,.select-this-1,.select-this-2{*!*/
+    /*!*background:#3F9EEA;*!*/
+    /*!*color: #fff;*!*/
+/*!*}*!*/
+/*!*.select-this:hover,.select-this-1:hover,.select-this-2:hover{*!*/
+    /*!*background:#3F9EEA;*!*/
+/*!*}*!*/
+/*!*.fa{*!*/
+    /*!*margin-right:5px;*!*/
+    /*!*position:absolute;*!*/
+    /*!*right:0;*!*/
+    /*!*top:0;*!*/
+    /*!*font-size: 30px;*!*/
+    /*!*-webkit-transition: all 0.4s ease;*!*/
+    /*!*-o-transition: all 0.4s ease;*!*/
+    /*!*transition: all 0.4s ease;*!*/
+/*!*}*!*/
+/*!*.select-menu-input,.select-menu-input-1,.select-menu-input-2{*!*/
+    /*!*margin-left:3%;*!*/
+    /*!*border:0;*!*/
+    /*!*height:30px;*!*/
+    /*!*cursor:pointer;*!*/
+    /*!*user-select:none;*!*/
+    /*!*width: 75%;*!*/
+/*!*}*!*/
+/*!*.select-menu-ul,.select-menu-ul-1,.select-menu-ul-2{*!*/
+    /*!*margin-top:50px !important;*!*/
+    /*!*list-style:none;*!*/
+    /*!*opacity:0;*!*/
+    /*!*display:none;*!*/
+    /*!*width:70%;*!*/
+    /*!*text-align:left;*!*/
+    /*!*border:1px solid #ddd;*!*/
+    /*!*background:#fff;*!*/
+    /*!*position:absolute;*!*/
+    /*!*z-index:1;*!*/
+    /*!*margin-left: 30%;*!*/
+/*!*}*!*/
+/*!*.select-menu-ul li,.select-menu-ul-1 li,.select-menu-ul-2 li{*!*/
+    /*!*padding:2% 0 2% 3%;*!*/
+/*!*}*!*/
+/*!*.select-menu-ul li:hover,.select-menu-ul-1 li:hover,.select-menu-ul-2 li:hover{*!*/
+    /*!*background:#3F9EEA;*!*/
+    /*!*color:#fff;*!*/
+/*!*}*!*/
+/*!*.select-menu-i,.select-menu-i-1,.select-menu-i-2{*!*/
+    /*!*transform:rotate(180deg);*!*/
+/*!*}*!*/
+
+
+
+
+
+
+/*.unit-menu{*/
+    /*width: 100%;*/
+    /*position:relative;*/
+/*}*/
+/*.unit-menu label{*/
+    /*display: block;*/
+    /*float: left;*/
+    /*line-height: 40px;*/
+    /*font-weight: normal;*/
+    /*width: 30%;*/
+    /*margin: 15px 0;*/
+/*}*/
+/*.unit_list{width: 70%;margin: 15px 0;height: 40px;border: 1px solid #ccc;padding: 0 10px;}*/
+
+
+/*!*输入框的删除按钮 单位管理*!*/
+/*.check_inner .choose{margin-top:15px;margin-bottom:15px;height: 40px;line-height: 40px;float: left;width: 100%;}*/
+/*.check_inner .choose .unit_name{width: 30%;}*/
+/*.check_inner .choose .unit_input{width: 57%;margin-right: 3%;border: 1px solid #ccc;height: 40px;}*/
+/*.check_inner .choose .unit_input input{border: none;padding: 0 10px;width: 85%;height: 90%;outline: none;}*/
+/*.check_inner .choose .unit_input .unit_del i{color: red;cursor: pointer;display: none;}*/
+/*.check_inner .choose .unit_input .unit_del{margin-bottom: 0;float: right;padding-right: 3%;}*/
+/*.check_inner .choose .choose_button{width: 10%;}*/
+/*.check_inner .choose .choose_button .btn{background: #fff;color: #419eeb;border: 1px solid #419eeb;border-radius: 4px;}*/
+
+
+/*#zhiwu .unit_dels , .unit-menu .unit_dels{*/
+    /*position: absolute;*/
+    /*float: left;*/
+    /*font-weight: normal;*/
+    /*width: 6%;*/
+    /*height: 38px;*/
+    /*line-height: 38px;*/
+    /*text-align: center;*/
+    /*margin: 0;*/
+    /*top:0;*/
+    /*right:200px;*/
+    /*z-index: 10;*/
+/*}*/
+/*#zhiwu .unit_dels i ,.unit-menu .unit_dels i{*/
+    /*color:red;*/
+    /*cursor: pointer;*/
+    /*top:0; left:0;*/
+    /*font-size: 16px;*/
+/*}*/
+
+/*.unit-menu .unit_dels{*/
+    /*top:15px;*/
+    /*right:112px;*/
+/*}*/
+/*.unit-menu .unit_dels i{*/
+    /*font-size: 24px;*/
+/*}*/
+
+/*.unit_item{border: 1px solid #999;float: left;width: 100%;padding: 10px;max-height: 260px; margin-top:10px;}*/
+/*.unit_item ul{width: 100%;cursor: pointer;}*/
+/*.unit_item ul:hover li{color: #333;}*/
+/*.unit_item ul li{display: block;float: left;width: 30%;text-align: center;color: #999;}*/
+/*.unit_item ul li:first-child{width: 40%;text-align: left;}*/
+/*.unit_item .ac li{color: #333;}*/
+/*!*********************************************陈泳帮我写的css样式********************************************!*/
+
+
+
+
+
+
+
+/*!*****************人员管理窗口样式**************!*/
+/*!*历史头像*!*/
+
+/*.Historical_picture li{*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*background:#464646;*/
+    /*float:left;*/
+    /*border-radius:30px;*/
+    /*margin-top:5px;*/
+    /*margin-right: 10px;*/
+    /*text-align: center;*/
+/*}*/
+/*.Historical_picture li.active{*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*border-radius:40px;*/
+    /*margin-top:0;*/
+/*}*/
+/*.Historical_picture li img{!*图片倒角和占满父元素*!*/
+    /*border-radius: 50%;*/
+    /*width: 100%;*/
+/*}*/
+/*.Historical_picture li a{*/
+    /*color:#fff;*/
+    /*font-size:12px;*/
+    /*line-height: 57px;*/
+
+/*}*/
+
+/*.xinzengShuxing,.xinzengZhiwu{!*新增属性*!*/
+    /*border:1px solid #2B97DF;*/
+    /*border-radius:5px;*/
+    /*color:#2B97DF;*/
+    /*background:#fff;*/
+    /*padding: 5px 15px 5px 15px;*/
+/*}*/
+
+/*.xinzengZhiwu{!*新增职务*!*/
+    /*position: relative;*/
+    /*top: -38px;*/
+    /*left: 371px;*/
+/*}*/
+
+
+
+
+
+
+
+/*!*透明黑色背景*!*/
+/*.hiesetoumingbeijing-1,*/
+/*.hiesetoumingbeijing-2,*/
+/*.hiesetoumingbeijing-3,*/
+/*.hiesetoumingbeijing-4{*/
+    /*width: 97%;*/
+    /*height: 97%;*/
+    /*background: rgba(0,0,0,.3);*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 0;*/
+/*}*/
+
+
+/*!*弹窗 编辑部门成员*!*/
+/*#bianjibumenchengyuan{*/
+    /*position:absolute;*/
+    /*width:60%;*/
+    /*height:62%;*/
+    /*background: #fff;*/
+    /*left:20%;*/
+    /*top:15%;*/
+
+/*}*/
+/*#bianjibumenchengyuan ul{*/
+    /*width: 95%;*/
+    /*margin:0 auto;*/
+    /*text-align: center;*/
+/*}*/
+
+/*#bianjibumenchengyuan ul li{*/
+    /*margin-top:30px;*/
+/*}*/
+
+/*!*弹窗 选择单位领导*!*/
+/*#xuanze-lingdao{*/
+    /*position:absolute;*/
+    /*width:85%;*/
+    /*height:80%;*/
+    /*background: #fff;*/
+    /*left:6%;*/
+    /*top:10%;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+
+
+
+/*!*弹窗 新增属性*!*/
+/*.xinzengShuxing_bgcolor{*/
+    /*position:absolute;*/
+    /*z-index: 10;*/
+    /*background: #fff;*/
+    /*width: 60%;*/
+    /*height: 75%;*/
+    /*left:20%;*/
+    /*top:15%;*/
+/*}*/
+
+
+
+/*!*新增属性弹窗表格*!*/
+/*.xinzengShuxing-table{*/
+    /*width: 93%;*/
+    /*margin:0 auto;*/
+/*}*/
+/*.xinzengShuxing-table-Height{*/
+    /*max-height: 158px;*/
+/*}*/
+
+/*.xinzengShuxing-table-Width{*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.xinzengShuxing-table-Width, td, th {*/
+    /*border:1px solid #E3E3E3;*/
+/*}*/
+
+
+/*!*人员管理查看详情编辑按钮的弹框*!*/
+/*.renyuanguanli-bianji-tankuang{*/
+    /*width: 80%;*/
+    /*height: 50%;*/
+    /*background: #fff;*/
+    /*position: absolute;*/
+    /*top: 25%;*/
+    /*left: 10%;*/
+    /*z-index: 10;*/
+/*}*/
+/*.renyuanguanli-bianji-content{*/
+    /*width: 100%;*/
+/*}*/
+/*.renyuanguanli-bianji-content ul{*/
+    /*width: 95%;*/
+    /*margin:0 auto;*/
+/*}*/
+/*.renyuanguanli-bianji-content ul li{*/
+    /*margin-top:20px;*/
+    /*text-align: right;*/
+/*}*/
+/*.renyuanguanli-bianji-content ul li input{*/
+    /*border-radius: 5px;*/
+    /*border:1px solid #8c8c8c;*/
+    /*text-align: left;*/
+/*}*/
+
+
+
+
+
+
+/*!*弹窗 新增职务*!*/
+/*.xinzengZhiwu_bgcolor{*/
+    /*position:absolute;*/
+    /*z-index: 10;*/
+    /*background: #fff;*/
+    /*width: 60%;*/
+    /*height: 23%;*/
+    /*left:20%;*/
+    /*top:35%;*/
+/*}*/
+
+
+
+
+/*#xinzengShuxing .input1 input{*/
+    /*width: 70%;*/
+    /*height: 30px;*/
+    /*border-radius:5px;*/
+    /*border:1px solid #ccc;*/
+    /*margin-top: 10px;*/
+    /*margin-left: 15px;*/
+    /*margin-bottom: 20px;*/
+    /*outline: none;*/
+/*}*/
+
+/*.btn1{*/
+    /*border:1px solid #638FFA;*/
+    /*background:#638FFA;*/
+    /*color:#fff;*/
+    /*font-size: 16px;*/
+    /*margin-left:2%;*/
+    /*height: 30px;*/
+    /*padding: 5px 20px 5px 20px;*/
+    /*border-radius:5px;*/
+    /*line-height: 0;*/
+/*}*/
+/*.btn2{*/
+    /*background:#fff;*/
+    /*border:1px solid #6892FA;*/
+    /*color:#6892FA;*/
+    /*padding:0 15px;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*#xinzengShuxing .btn1{*/
+    /*border:1px solid #2B97DF;*/
+    /*background:#2B97DF;*/
+    /*color:#fff;*/
+    /*font-size: 16px;*/
+    /*margin-left:2%;*/
+    /*height: 30px;*/
+    /*padding: 5px 20px 5px 20px;*/
+    /*border-radius:5px;*/
+    /*line-height: 0;*/
+/*}*/
+
+/*#xinzengShuxing .btn2{*/
+    /*background: #fff;*/
+    /*border:1px solid #2B97DF;*/
+    /*color: #2B97DF;*/
+    /*padding: 5px 20px 5px 20px;*/
+    /*border-radius:5px;*/
+    /*margin-top:30px;*/
+    /*margin-left:15px;*/
+/*}*/
+
+/*#xinzengShuxing .btn3{*/
+    /*float:right;*/
+/*}*/
+
+/*#chuangjianxinshuxing{*/
+    /*width: 95%;*/
+    /*height:170px;*/
+    /*background: #EDEDED;*/
+    /*margin: 0 auto;*/
+    /*margin-top:10px;*/
+    /*display: none;*/
+/*}*/
+
+/*#chuangjianxinshuxing div:first-child input ,#chuangjianxinshuxing div:last-child input{*/
+    /*border:1px solid #ccc;*/
+/*}*/
+/*#chuangjianxinshuxing div:first-child input{*/
+    /*margin-top:20px;*/
+    /*margin-bottom:20px;*/
+/*}*/
+
+
+
+/*#xinzengZhiwu .xinzengZhiwu_bgcolor div{*/
+    /*width:100%;*/
+/*}*/
+/*#xinzengZhiwu input{*/
+    /*width: 90%;*/
+    /*margin:0 auto;*/
+    /*margin-top:10px;*/
+/*}*/
+
+
+
+
+
+
+
+
+/*!*查看详情的头像样式*!*/
+
+
+
+
+/*!*编辑按钮*!*/
+/*.bianji1{*/
+    /*width: 55%;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+/*}*/
+/*.bianji1 .btn{*/
+    /*color:#fff;*/
+    /*background:#2B97DF;*/
+    /*border:1px solid #2B97DF;*/
+/*}*/
+/*.bianji2{*/
+    /*width: 27%;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*right: 40px;*/
+/*}*/
+/*.bianji2 .btn{*/
+    /*color:#fff;*/
+    /*background:#2B97DF;*/
+    /*border:1px solid #2B97DF;*/
+/*}*/
+
+
+
+
+
+
+
+/*!*组群管理的查看详情*!*/
+
+/*!*图片样式*!*/
+/*.img_w_r{*/
+    /*width: 10%;*/
+    /*border-radius: 50%;*/
+/*}*/
+
+
+/*!*组群管理的按钮特效*!*/
+/*.switch {*/
+    /*width:100px;*/
+    /*margin-left:20px;*/
+/*}*/
+/*.btn_fath {*/
+    /*position:relative;*/
+    /*border-radius:20px;*/
+    /*z-index:10;*/
+/*}*/
+/*.switch .btn-kai {*/
+    /*float:left;*/
+/*}*/
+/*.switch .btn-guan {*/
+    /*float:right;*/
+/*}*/
+/*.btnSwitch {*/
+    /*height:40px;*/
+    /*width:30px;*/
+    /*border:none;*/
+    /*color:#fff;*/
+    /*line-height:40px;*/
+    /*font-size:16px;*/
+    /*text-align:center;*/
+    /*z-index:1;*/
+/*}*/
+/*.move {*/
+    /*z-index:100;*/
+    /*width:30px;*/
+    /*border-radius:20px;*/
+    /*height:40px;*/
+    /*position:absolute;*/
+    /*cursor:pointer;*/
+    /*border:1px solid #828282;*/
+    /*background-color:#f1eff0;*/
+    /*box-shadow:1px 2px 2px 1px #fff inset,0 0 5px 1px #999;*/
+/*}*/
+/*.on .move {*/
+    /*left:40px;*/
+/*}*/
+/*.on.btn_fath {*/
+    /*background-color:#44b549;*/
+    /*width: 70px;*/
+/*}*/
+/*.off.btn_fath {*/
+    /*background-color:#828282;*/
+    /*width: 70px;*/
+/*}*/
+
+/*.anniutexiao div{*/
+    /*float:left;*/
+    /*height:30px;*/
+    /*line-height:30px;*/
+/*}*/
+
+/*!*群组管理的查看详情的文本框样式*!*/
+/*.check_editss .addChat_inner_renyuna .check_content .check_inner input{*/
+    /*height:30px;*/
+    /*width: 75%;*/
+
+/*}*/
+
+/*.check_editss .addChat_inner_renyuna .check_content .check_inner textarea{*/
+    /*height: 52px;*/
+    /*font-size: 16px;*/
+    /*line-height:16px;*/
+/*}*/
+
+
+/*.combo-select{*/
+    /*margin-bottom: 0;*/
+/*}*/
+
+
+
+
+/*!*进度条*!*/
+
+/*#faxes_content .progress{*/
+    /*margin-bottom:0;*/
+    /*border-radius: 15px;*/
+    /*height: 12px;*/
+    /*width:65%;*/
+    /*float:left;*/
+    /*margin-top:5px;*/
+/*}*/
+
+
+
+/*!*蓝色边框蓝色文字，白色底的通用样式*!*/
+/*.wathet_blue{*/
+    /*border:1px solid;*/
+    /*border-color:#44A0CF;*/
+    /*color:#44A0CF;*/
+    /*background:#fff;*/
+/*}*/
+
+
+/*#container_y tbody tr{*/
+    /*cursor:pointer;*/
+/*}*/
+
+
+
+
+
+/*!*单选框样式美化*!*/
+/*.demo--label{margin:20px 20px 0 0;display:inline-block;font-weight:normal;}*/
+/*.demo--radio{display:none}*/
+/*.demo--radioInput{*/
+    /*background-color:#fff;*/
+    /*border:1px solid rgba(0,0,0,0.15);*/
+    /*border-radius:100%;*/
+    /*display:inline-block;*/
+    /*height:16px;*/
+    /*margin-right:10px;*/
+    /*margin-top:-1px;*/
+    /*vertical-align:middle;*/
+    /*width:16px;*/
+    /*line-height:1;*/
+    /*position:relative;*/
+/*}*/
+/*.demo--radio:checked + .demo--radioInput:after{*/
+    /*background-color:#57ad68;*/
+    /*border-radius:100%;*/
+    /*content:"";*/
+    /*display:inline-block;*/
+    /*height:12px;*/
+    /*margin:2px;*/
+    /*width:12px;*/
+    /*position:absolute;*/
+    /*top:-1px;*/
+    /*left:-1px;*/
+/*}*/
+
+
+
+
+
+
+/*!*通讯记录的默认页面通讯录的下拉树的容器*!*/
+
+/*.tongxunjilu_tongxunlu_xialashu{*/
+    /*width: 90%;*/
+    /*height: 450px;*/
+    /*margin: 0 auto;*/
+    /*border: 1px solid #ccc;*/
+    /*margin-top: 10px;*/
+    /*overflow-y: auto;*/
+/*}*/
+
+/*.tongxunjilu_tongxunlu_xialashu .friend_list02{*/
+    /*position: relative;*/
+/*}*/
+
+/*.tongxunjilu_tongxunlu_xialashu_1,.tongxunjilu_tongxunlu_xialashu_2{*/
+    /*max-height: 450px;*/
+/*}*/
+
+/*.tongxunjilu_tongxunlu_xialashu .friend_list02 .dianhuabenrenyuan_bodadianhua{*/
+    /*border:1px solid #79BDED;*/
+    /*box-shadow:none;*/
+    /*width:200px;*/
+    /*height: auto;*/
+    /*left:150px;*/
+    /*top:auto;*/
+    /*background: #fff;*/
+    /*z-index: 10;*/
+    /*border-radius: 5px;*/
+    /*padding:5px;*/
+/*}*/
+/*.tongxunjilu_tongxunlu_xialashu .friend_list02 .dianhuabenrenyuan_bodadianhua p{*/
+    /*margin:0;*/
+    /*color:#79BDED;*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*.tongxunjilu_tongxunlu_xialashu .friend_list02 .dianhuabenrenyuan_bodadianhua .topsanjiao{*/
+    /*left:20px;*/
+/*}*/
+
+/*!*通讯记录里的拨号键盘*!*/
+/*#Telephone_history .numbers-container span{*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*margin: 10px 25px;*/
+    /*line-height: 70px;*/
+/*}*/
+
+
+
+/*.tongxunjilu_tongxunlu_xialashu .menu i{*/
+    /*color:#ccc;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.tongxunjilu_tongxunlu_xialashu dl{*/
+    /*margin-left:1%;*/
+/*}*/
+/*.tongxunjilu_tongxunlu_xialashu dl dt span.menu strong,.tongxunjilu_tongxunlu_xialashu dl dd span{*/
+    /*font-size: 14px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+/*!*点击电话记录 的所属单位 手机号码 录音的弹框*!*/
+
+
+/*#phone_content tr{*/
+    /*position: relative;*/
+/*}*/
+
+/*#phone_content .dianhuabenrenyuan_bodadianhua{*/
+    /*top:auto;*/
+    /*left:auto;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*box-shadow: none;*/
+    /*border:1px solid #79BDED;*/
+    /*padding:5px;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*.topsanjiao{!*上三角*!*/
+    /*width: 11px;*/
+    /*height: 6px;*/
+    /*background: url("../images/qieTu/topsanjiao.png") no-repeat;*/
+    /*position: absolute;*/
+    /*top: -6px;*/
+/*}*/
+
+/*#phone_content tr td:nth-child(2) .topsanjiao{*/
+    /*left: 30px;*/
+/*}*/
+/*#phone_content tr td:nth-child(2) .dianhuabenrenyuan_bodadianhua{*/
+    /*left:210px;*/
+/*}*/
+
+/*#phone_content tr td:nth-child(3) .topsanjiao{*/
+    /*left: 30px;*/
+/*}*/
+/*#phone_content tr td:nth-child(3) .dianhuabenrenyuan_bodadianhua{*/
+    /*left:400px;*/
+    /*padding: 5px 3px 4px 3px;*/
+    /*width: 110px;*/
+
+/*}*/
+
+/*#phone_content tr td:nth-child(6) .topsanjiao{*/
+    /*left:98px;*/
+/*}*/
+
+/*#phone_content tr td:nth-child(6) .dianhuabenrenyuan_bodadianhua{*/
+    /*left:900px;*/
+    /*width: 190px;*/
+/*}*/
+/*#phone_content tr td:nth-child(6) .dianhuabenrenyuan_bodadianhua .progress{*/
+    /*margin:0;*/
+    /*height: 8px;*/
+    /*margin-top:5px;*/
+/*}*/
+
+
+
+/*.dianhuabenrenyuan_bodadianhua .zuoji_801_802 a{*/
+    /*background: #2B97DF;*/
+    /*padding: 2px 12px 2px 12px;*/
+    /*color:#fff;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*********************通讯录页面样式*******************!*/
+/*!*通用button样式*!*/
+/*.button_border_text_padding{*/
+    /*!*只设置了边框文字颜色和内边距的button*!*/
+    /*color:#7EA2FB;*/
+    /*border-color:#7EA2FB;*/
+    /*background:#fff;*/
+    /*padding:0 15px;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #7ea2fb;*/
+/*}*/
+
+
+/*.XuanZeTanKuang{!*通讯录选择弹框样式*!*/
+    /*position:absolute;*/
+    /*top:50%;*/
+    /*left:50%;*/
+    /*background:#fff;*/
+    /*box-shadow: darkgrey 0px 0px 30px 0px;*/
+    /*z-index: 100;*/
+/*}*/
+
+/*.tongxunlu_left{*/
+    /*background:#fff;*/
+    /*height: 978px;*/
+    /*margin-left: 0.5%;*/
+    /*margin-top: 0.5%;*/
+
+/*}*/
+
+/*.TongKuaiXinJin{*/
+    /*display: flex;!*弹性布局*!*/
+/*}*/
+
+/*.TongKuaiXinJin li{*/
+    /*border:1px solid #ccc;*/
+    /*border-right:none;*/
+    /*width: 25%;!*100%/4=25%*!*/
+    /*text-align: center;*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    /*cursor:pointer;*/
+    /*font-size: 16px;*/
+/*}*/
+/*.TongKuaiXinJin li:last-child{*/
+    /*border-right: 1px solid #ccc;*/
+/*}*/
+
+/*.TongKuaiXinJin li.active{*/
+    /*background: #638FFA;*/
+    /*color:#fff;*/
+/*}*/
+
+
+/*!*搜索框 搜索 重置*!*/
+/*.tongxunlu_sousuokuang{*/
+    /*margin-top:20px;*/
+/*}*/
+/*.tongxunlu_sousuokuang .form-control{*/
+    /*display: inline-block;*/
+    /*width: 70%;*/
+/*}*/
+/*.tongxunlu_sousuokuang form{*/
+    /*width: 98%;*/
+    /*margin:0 auto;*/
+/*}*/
+
+/*.tongxunlu_sousuokuang .position_relative_span .glyphicon{*/
+    /*position:absolute;*/
+    /*top: 5px;*/
+    /*left: 8px;*/
+/*}*/
+
+/*.tongxunlu_sousuokuang .chaxun input,.tongxunlu_sousuokuang .chongzhi input{*/
+      /*width: 65px;*/
+/*}*/
+/*.tongxunlu_sousuokuang .chaxun .btn,.tongxunlu_sousuokuang .chongzhi .btn{*/
+    /*padding: 6px 0px 6px 18px;*/
+
+/*}*/
+
+
+
+/*!*树节点样式*!*/
+/*ul.ztree{*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+ /*overflow-y:auto;*/
+/*}*/
+
+
+
+
+/*ul.ztree li {!*li的统一样式*!*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*list-style: none;*/
+    /*line-height: 18px;*/
+    /*text-align: left;*/
+    /*white-space: nowrap;*/
+    /*font-size: 14px;*/
+    /*padding-right: 2px;*/
+/*}*/
+/*.font_weight_bold{*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*ul.ztree li ul { !*ul统一样式*!*/
+    /*margin: 0;*/
+    /*padding: 0 0 0 18px;*/
+/*}*/
+
+/*ul.ztree li a {!*a统一样式*!*/
+    /*padding: 1px 3px 0 0;*/
+    /*margin: 0 10px 0 0;*/
+    /*cursor: pointer;*/
+    /*height: 16px;*/
+    /*line-height: 16px;*/
+    /*color: #333;*/
+    /*background-color: transparent;*/
+    /*text-decoration: none;*/
+    /*vertical-align: top;*/
+    /*display: inline-block;*/
+/*}*/
+
+
+/*!*button样式*!*/
+/*.ztree li button {!*引入背景图*!*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*vertical-align: middle;*/
+    /*border: 0 none;*/
+    /*cursor: pointer;*/
+    /*background-color: transparent;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    /*outline:none;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+/*}*/
+
+/*.ztree li i{*/
+    /*cursor:pointer;*/
+/*}*/
+
+/*.ztree li button.ico_open {!*文件图标*!*/
+    /*margin-right: 2px;*/
+    /*background-position: 0px 0px;*/
+    /*vertical-align: top;*/
+/*}*/
+
+
+
+/*!*<!--图标 人名 星标-->*!*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children{*/
+    /*width: 100%;*/
+    /*min-height:30px;*/
+    /*margin:10px 0;*/
+/*}*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children button{!*指定宽高*!*/
+    /*width: 14px;*/
+    /*height: 14px;*/
+/*}*/
+/*div.tubiao_renming_xingbiao span,div.tubiao_renming_xingbiao{*/
+    /*cursor:pointer;*/
+/*}*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_huise{!*灰色图标*!*/
+    /*background-position: -33px -26px;*/
+    /*vertical-align:middle;*/
+    /*margin-right:10px;*/
+    /*margin-bottom: 3px;*/
+/*}*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.tubiao_touxiang_caise{!*彩色图标*!*/
+    /*background-position: -0px -26px;*/
+    /*vertical-align:middle;*/
+    /*margin-right:10px;*/
+    /*margin-bottom: 3px;*/
+/*}*/
+
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_huise{!*星标灰色*!*/
+    /*background-position: -106px -26px;*/
+    /*vertical-align:middle;*/
+    /*margin-left:10px;*/
+    /*margin-bottom: 3px;*/
+/*}*/
+
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children button.xingbiao_biaoji_caise{!*星标彩色*!*/
+    /*background-position: -69px -26px;*/
+    /*vertical-align:middle;*/
+    /*margin-left:10px;*/
+    /*margin-bottom: 3px;*/
+/*}*/
+
+/*!*<!--名片信息-->*!*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi{*/
+    /*border:1px solid #ccc;*/
+    /*min-height:30px;*/
+    /*width: 100%;*/
+    /*line-height: 24px;*/
+/*}*/
+
+/*!*中间分隔线*!*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.zhongjianfengexian{*/
+    /*border-left:1px solid #ccc;*/
+    /*padding:0 10px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom:10px;*/
+/*}*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.col-md-5{*/
+    /*margin-top: 10px;*/
+    /*margin-bottom:10px;*/
+    /*padding: 0 10px;*/
+/*}*/
+
+
+
+
+
+
+
+
+/*!*名片移动电话和移动图标*!*/
+/*div.mingpianxinxi button.yidongdianhuatubiao{*/
+    /*background-position: -0px -51px;*/
+    /*float: right;*/
+/*}*/
+
+
+/*div.mingpianxinxi button.zuojitubiao{*/
+    /*background-position: -0px -76px;*/
+    /*float: right;*/
+/*}*/
+
+
+/*!*<!--图标 人名 星标--> 选中状态 人头变蓝 背景变色 边框变色*!*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.active{*/
+    /*background:#D0DDFD;*/
+/*}*/
+
+/*!*切换有颜色边框的样式*!*/
+/*ul.mingpianzhanshi_parent li.mingpianzhanshi_children div.mingpianxinxi_cai{*/
+    /*border:1px solid #D0DDFD;*/
+    /*min-height: 30px;*/
+    /*width: 100%;*/
+    /*line-height: 24px;*/
+/*}*/
+
+
+
+
+/*!*树的高度动漫*!*/
+
+/*.ShouSuo{!*收缩*!*/
+    /*height:0;*/
+    /*opacity:0;*/
+    /*overflow:hidden;*/
+    /*transition:all .5s linear;*/
+/*}*/
+
+/*.ZhanKai{!*展开*!*/
+    /*height: auto;*/
+    /*opacity:1;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*******************右边通讯录********************!*/
+/*.tongxunlu_right{*/
+    /*border:1px solid #ccc;*/
+    /*background: #fff;*/
+    /*height: 978px;*/
+    /*margin-left:0.5%;*/
+    /*margin-top: 0.5%;*/
+/*}*/
+
+
+/*!*<!--排序 导入 导出 删除 黑名单 -->*!*/
+/*.pai_ru_chu_shan_hei{*/
+    /*background:#F5F5F5;*/
+    /*border-bottom:1px solid #ccc;*/
+/*}*/
+/*.pai_ru_chu_shan_hei ul li{*/
+    /*float:left;*/
+    /*margin-right:10px;*/
+    /*font-size: 16px;*/
+    /*padding: 8px 15px;*/
+    /*cursor:pointer;*/
+/*}*/
+/*.pai_ru_chu_shan_hei ul li i{!*背景图标*!*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+    /*vertical-align: sub;*/
+/*}*/
+
+
+
+
+/*!*整合图标，减少服务器压力，减少加载次数*!*/
+
+/*!*排序 蓝*!*/
+/*.pai_ru_chu_shan_hei ul li i.paixu_background{*/
+  /*background-position:0 -113px;*/
+/*}*/
+/*!*排序 白*!*/
+/*.pai_ru_chu_shan_hei ul li.active i.paixu_background{*/
+    /*background-position:-24px -113px;*/
+/*}*/
+
+/*!*导入 蓝*!*/
+/*.pai_ru_chu_shan_hei ul li i.daoru_background{*/
+    /*background-position:0 -143px;*/
+/*}*/
+/*!*导入 白*!*/
+/*.pai_ru_chu_shan_hei ul li.active i.daoru_background{*/
+    /*background-position:-24px -143px;*/
+/*}*/
+
+/*!*导出 蓝*!*/
+/*.pai_ru_chu_shan_hei ul li i.daochu_background{*/
+    /*background-position:0 -171px;*/
+/*}*/
+/*!*导出 白*!*/
+/*.pai_ru_chu_shan_hei ul li.active i.daochu_background{*/
+    /*background-position:-24px -171px;*/
+/*}*/
+
+/*!*删除 蓝*!*/
+/*.pai_ru_chu_shan_hei ul li i.shanchu_background{*/
+    /*background-position:0 -198px;*/
+/*}*/
+/*!*删除 白*!*/
+/*.pai_ru_chu_shan_hei ul li.active i.shanchu_background{*/
+    /*background-position:-24px -198px;*/
+/*}*/
+
+/*!*黑名单*!*/
+/*.pai_ru_chu_shan_hei ul li i.heimingdan_background{*/
+    /*background-position:0 -227px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*<!--单位详细信息--><!--人员详细信息-->*!*/
+/*.xiangxixinxi{*/
+    /*!*宽度统一，高度统一*!*/
+    /*width: 48%;*/
+    /*height:910px;*/
+    /*border:1px solid #D0DDFD;*/
+    /*float:left;*/
+    /*margin-left: 15px;*/
+    /*margin-top: 15px;*/
+/*}*/
+
+
+
+/*!*所有i都使用这张背景图标集合图 不同标签使用不同定位即可*!*/
+/*div.xiangxixinxi div.xiangxi_neirong p i{*/
+    /*display: inline-block;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border: 0 none;*/
+    /*cursor: pointer;*/
+    /*background-color: transparent;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    /*outline: none;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+/*}*/
+
+/*!*定位星标*!*/
+/*div.xiangxixinxi div.xiangxi_neirong p i.xingbiao_biaoji_caise{!*蓝色星*!*/
+    /*background-position: -69px -26px;*/
+    /*vertical-align: middle;*/
+    /*margin-left: 10px;*/
+    /*display: inline-block;*/
+/*}*/
+/*div.xiangxixinxi div.xiangxi_neirong p i.xingbiao_biaoji_huise{!*灰色星*!*/
+    /*background-position: -106px -26px;*/
+    /*vertical-align: middle;*/
+    /*margin-left: 10px;*/
+/*}*/
+
+
+/*!*添加按钮图标 +*!*/
+/*div.xiangxixinxi div.xiangxi_neirong p i.Tianjia_anNiu_qiehuan{*/
+    /*background-position: -157px -26px;*/
+    /*vertical-align: middle;*/
+    /*margin-left: 10px;*/
+/*}*/
+
+/*!*删除按钮图标 -*!*/
+/*div.xiangxixinxi div.xiangxi_neirong p i.Shanchu_anNiu_qiehuan{*/
+    /*background-position: -198px -26px;*/
+    /*vertical-align: middle;*/
+    /*margin-left: 15px;*/
+/*}*/
+/*.tianjiawenbenkuang{*/
+    /*display:block;*/
+    /*margin-left:99px;*/
+    /*margin-top:10px;*/
+/*}*/
+
+
+/*!*单位详细信息页面样式*!*/
+/*.xiangxixinxi_biaoti_bg_hui{!*顶部颜色 灰*!*/
+    /*background:#F5F5F5;*/
+    /*border-bottom:1px solid #D0DDFD;*/
+/*}*/
+/*.xiangxixinxi_biaoti_bg_lan{!*顶部颜色 蓝*!*/
+    /*background:#D0DDFD;*/
+    /*border-bottom:1px solid #D0DDFD;*/
+/*}*/
+
+/*.text_color_999{!*灰色文字*!*/
+    /*color:#999;*/
+/*}*/
+
+/*.xiangxi_neirong{!*添加内边距和高度，设置溢出滚动条*!*/
+    /*padding:10px 16px;*/
+    /*height: 810px;*/
+    /*overflow-y: auto;*/
+    /*font-size: 16px;*/
+/*}*/
+
+/*.xiangxixinxi .xiangxi_neirong input,*/
+/*.xiangxixinxi .xiangxi_neirong textarea{*/
+    /*!*统一设定 xiangxixinxi 类下的 input textarea 的宽度*!*/
+    /*width: 340px;*/
+    /*padding:0 5px;*/
+/*}*/
+/*.xiangxixinxi .xiangxi_neirong textarea{*/
+    /*height: 200px;*/
+/*}*/
+
+
+/*.anniu_color_border{!*按钮样式*!*/
+    /*border:1px solid #638FFA;*/
+    /*background: #638FFA;*/
+    /*border-radius:5px;*/
+    /*padding:4px 15px;*/
+    /*color:#fff;*/
+/*}*/
+
+/*.xiangxixinxi .anniu_color_border{!*修改按钮样式*!*/
+    /*margin-right:20px;*/
+    /*width: 105px;*/
+    /*font-size: 16px;*/
+/*}*/
+/*.xiangxixinxi .xiangxi_neirong p{*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+
+
+
+
+/*!*<!--排序  导出  导入 删除  黑名单 的页面布局-->*!*/
+
+
+/*!*<!--单位排序--><!--人员排序-->*!*/
+/*.Paixu{*/
+    /*width: 96%;*/
+    /*height: 900px;*/
+    /*margin:0 auto;*/
+    /*border:1px solid #D0DDFD;*/
+    /*margin-top: 20px;*/
+/*}*/
+
+
+/*.ShangXiaCeng{*/
+    /*padding-top:20px;*/
+    /*padding-bottom:20px;*/
+    /*border-bottom:1px solid #D5D5D5;*/
+    /*width: 90%;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+/*.ShangXiaCeng_anniuyangshi button{*/
+    /*border:1px solid #D5D5D5;*/
+    /*background: #fff;*/
+    /*padding:0 15px;*/
+    /*border-radius: 5px;*/
+    /*color:#D5D5D5;*/
+/*}*/
+/*.ShangXiaCeng_anniuyangshi button.active{*/
+    /*color:#7EA2FB;*/
+    /*border-color:#7EA2FB;*/
+/*}*/
+
+
+/*.Neirong_paixu{*/
+    /*width: 90%;*/
+    /*height: 700px;*/
+    /*margin:0 auto;*/
+/*}*/
+
+/*.Neirong_paixu div.Paixudeneirong{*/
+    /*width: 70%;*/
+    /*border-right:2px solid #D5D5D5;*/
+    /*border-bottom:1px solid #D5D5D5;*/
+    /*height: 698px;*/
+    /*overflow:hidden;*/
+/*}*/
+/*.Neirong_paixu div.Paixudeneirong ul li{*/
+    /*margin:0;*/
+    /*cursor:pointer;*/
+    /*padding:5px 0;*/
+/*}*/
+
+/*!*人员图标*!*/
+/*.Neirong_paixu div.Paixudeneirong ul li span.tubiao_touxiang_caise{*/
+    /*display: inline-block;*/
+    /*width: 14px;*/
+    /*height: 14px;*/
+    /*background-color: transparent;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    /*outline: none;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+    /*background-position: -0px -26px;*/
+    /*margin-right:2px;*/
+/*}*/
+/*!*单位图标*!*/
+/*.Neirong_paixu div.Paixudeneirong ul li span.ico_open{*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*height: 14px;*/
+    /*background-color: transparent;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    /*outline: none;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+    /*background-position: 0px 0px;*/
+    /*margin-right:2px;*/
+/*}*/
+/*.Neirong_paixu div.Paixudeneirong ul li.active{*/
+    /*background:#CCDAFA;*/
+/*}*/
+
+
+/*.Neirong_paixu div.shangxiajiantoutubiao{*/
+    /*width:30%;*/
+    /*height: 698px;*/
+    /*border-bottom:1px solid #D5D5D5;*/
+    /*padding-top: 205px;*/
+/*}*/
+
+
+/*.Paixu i{!*背景图标 排序*!*/
+    /*display: inline-block;*/
+    /*background-image: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+    /*vertical-align: sub;*/
+/*}*/
+/*.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i{!*上下层箭头*!*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*margin-right:5px;*/
+/*}*/
+/*.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.shangYiceng_hui{!*灰上箭头*!*/
+    /*background-position: -185px -216px;*/
+/*}*/
+/*.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.shangYiceng_cai{!*彩上箭头*!*/
+    /*background-position: -220px -216px;*/
+/*}*/
+/*.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.xiaYiceng_hui{!*灰下箭头*!*/
+    /*background-position: -154px -216px;*/
+/*}*/
+/*.Paixu .ShangXiaCeng .ShangXiaCeng_anniuyangshi i.xiaYiceng_cai{!*彩下箭头*!*/
+    /*background-position: -119px -216px;*/
+/*}*/
+
+
+/*.Paixu .Neirong_paixu .shangxiajiantoutubiao i{!*排序箭头*!*/
+    /*width: 44px;*/
+    /*height: 52px;*/
+    /*cursor:pointer;*/
+/*}*/
+
+/*.Paixu .Neirong_paixu .shangxiajiantoutubiao button{*/
+    /*width: 44px;*/
+    /*margin: 0 auto;*/
+    /*display: inherit;*/
+    /*border: none;*/
+    /*background: none;*/
+    /*outline:none;*/
+/*}*/
+
+/*.Paixu .Neirong_paixu .shangxiajiantoutubiao i.paixu_shangjiantou{*/
+    /*background-position: -106px -122px;*/
+/*}*/
+
+/*.Paixu .Neirong_paixu .shangxiajiantoutubiao i.paixu_xiajiantou{*/
+    /*background-position: -172px -122px;*/
+/*}*/
+/*.Paixu .Neirong_paixu .shangxiajiantoutubiao button:last-child{*/
+    /*margin-top:90px;*/
+/*}*/
+
+
+
+/*!*导出和导入*!*/
+/*.DaoCu,.DaoRu{*/
+    /*box-shadow:darkgrey 0px 0px 30px 0px;*/
+    /*width: 90%;*/
+    /*margin:0 auto;*/
+    /*border:1px solid #D0DDFD;*/
+    /*margin-top: 120px;*/
+/*}*/
+
+/*!*删除*!*/
+/*.ShanChu{*/
+    /*box-shadow:darkgrey 0px 0px 30px 0px;*/
+    /*width: 60%;*/
+    /*margin:0 auto;*/
+    /*border:1px solid #D0DDFD;*/
+    /*margin-top: 120px;*/
+/*}*/
+
+/*!*黑名单*!*/
+/*.HeiMingDan{*/
+    /*border:1px solid #D0DDFD;*/
+    /*width: 90%;*/
+    /*margin:0 auto;*/
+    /*margin-top:20px;*/
+    /*height: 900px;*/
+/*}*/
+/*.HeiMingDan_List{*/
+    /*width: 90%;*/
+    /*margin:0 auto;*/
+    /*border:1px solid #ccc;*/
+    /*margin-top:10px;*/
+    /*height: 673px;*/
+    /*overflow:hidden;*/
+/*}*/
+
+
+/*.HeiMingDan_List .table > thead > tr > td,*/
+/*.HeiMingDan_List .table > tbody > tr > td{*/
+    /*border-left:none;*/
+    /*border-right:none;*/
+/*}*/
+
+
+
+/*!*电话话快捷组*!*/
+/*.DianHua_KuaiJieZu,.TianJiaKuaiJie_Zu_RenYuan,.TianJia_KuaiJieZu{*/
+    /*height: 900px;*/
+    /*width: 98%;*/
+    /*margin:0 auto;*/
+    /*border:1px solid #D0DDFD;*/
+    /*background:#F5F5F5;*/
+    /*margin-top:10px;*/
+/*}*/
+
+
+
+/*!*<!--添加快捷组人员-->*!*/
+/*!*<!--添加和移除-->*!*/
+/*.TianjiaHeYiChu{*/
+    /*width:100%;*/
+    /*margin:20px auto;*/
+    /*height: 720px;*/
+/*}*/
+/*.TianjiaHeYiChu>div{*/
+    /*float:left;*/
+/*}*/
+/*.TianjiaHeYiChu_left,.TianjiaHeYiChu_right,.TianjiaHeYiChu_center{*/
+    /*height: 720px;*/
+/*}*/
+/*.TianjiaHeYiChu_center{*/
+    /*width: 9%;*/
+    /*margin:0 0.5%;*/
+    /*text-align: center;*/
+/*}*/
+/*.TianjiaHeYiChu_center p button{*/
+    /*padding:5px 5px;*/
+/*}*/
+/*.TianjiaHeYiChu_center p button i{*/
+    /*background: url(../images/qieTu/TongXunLu_TuBiaoZengHe.png);*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*display: inline-block;*/
+    /*vertical-align: sub;*/
+/*}*/
+
+/*!*添加*!*/
+/*.TianjiaHeYiChu_center p button i.jianTou_right_tianJia{*/
+    /*background-position:-154px -275px;*/
+/*}*/
+/*!*移除*!*/
+/*.TianjiaHeYiChu_center p button i.jianTou_left_yichu{*/
+    /*background-position:-122px -275px;*/
+/*}*/
+/*!*移除全部*!*/
+/*.TianjiaHeYiChu_center p button i.shanChu_quanBu{*/
+    /*background-position:-186px -275px;*/
+/*}*/
+
+
+
+/*.TianjiaHeYiChu_center button{*/
+    /*width: 100%;*/
+    /*font-size: 16px;*/
+/*}*/
+
+/*.TianjiaHeYiChu_left,.TianjiaHeYiChu_right{*/
+    /*width: 45%;*/
+    /*background:#fff;*/
+    /*border:1px solid #ccc;*/
+/*}*/
+
+
+
+
+
+/*!*右边区域*!*/
+/*.tianjia_and_yichu{*/
+    /*width: 96%;*/
+    /*height: 100%;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.tianjia_and_yichu li{*/
+    /*cursor:pointer;*/
+    /*border-bottom: 1px solid #D0DDFD;*/
+    /*margin-top: 5px;*/
+/*}*/
+
+/*.tianjia_and_yichu li.active{*/
+    /*background:#D0DDFD;*/
+/*}*/
+
+/*.tianjia_and_yichu p{*/
+    /*margin:0;*/
+/*}*/
+
+/*.tianjia_and_yichu p span{*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*.tianjia_and_yichu p>span{*/
+    /*display: inline-block;*/
+    /*width: 48%;*/
+    /*padding: 0 0 0 10px;*/
+/*}*/
+/*.tianjia_and_yichu p>span>span{*/
+    /*color:#000;*/
+/*}*/
+
+
+
+/*!********下拉框 用以前的修改************!*/
+/*.select-menu{!*最外层div*!*/
+    /*width: 100%;*/
+    /*margin-bottom:20px;*/
+    /*position:relative;*/
+/*}*/
+/*.select-menu span{!*span设置为行内块*!*/
+    /*display:inline-block;*/
+/*}*/
+/*.select-menu .select-menu-div{*/
+    /*height:28px;line-height:26px;*/
+    /*width:340px;border:1px solid #A9A9A9;*/
+    /*!*设为行内块，设置相对定位*!*/
+    /*display: inline-block;*/
+    /*position:relative;*/
+/*}*/
+/*.select-menu .fa{!*小三角样式切换*!*/
+    /*cursor:pointer;*/
+    /*margin-right:5px;*/
+    /*position:absolute;*/
+    /*right:0;top:0;*/
+    /*font-size: 24px;*/
+    /*-webkit-transition: all 0.4s ease;*/
+    /*-o-transition: all 0.4s ease;*/
+    /*transition: all 0.4s ease;*/
+/*}*/
+/*.icon-jiantouxia{*/
+    /*transform:rotate(90deg);*/
+/*}*/
+/*.select-menu .select-menu-i{!*转动小三角的class方法*!*/
+    /*transform:rotate(0deg);*/
+/*}*/
+/*.select-menu input.select-menu-input{!*input的设置*!*/
+    /*height: 26px;*/
+    /*cursor: pointer;*/
+    /*width:90%;*/
+    /*border:0;*/
+    /*outline: none;*/
+/*}*/
+/*.select-menu .select-menu-ul{!*ul的设置*!*/
+    /*width:340px;*/
+    /*text-align:left;*/
+    /*border:1px solid #A9A9A9;*/
+    /*background:#fff;*/
+    /*position:absolute;*/
+    /*z-index:1;*/
+    /*top: 28px;*/
+    /*left: 98px;*/
+    /*height: 145px;*/
+    /*overflow-y: auto;*/
+
+/*}*/
+/*.select-menu .select-menu-ul li{!*li的设置*!*/
+    /*padding:2% 0 2% 3%;*/
+/*}*/
+/*.select-menu .select-menu-ul li:hover{!*鼠标悬停样式*!*/
+    /*background:#3F9EEA;*/
+    /*color:#fff;*/
+    /*cursor:pointer;*/
+/*}*/
+
+
+

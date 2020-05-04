@@ -1,0 +1,619 @@
+/***********************从这个版本开始，将整合所有的css,以便进行修改维护，以前分开写的css,将会逐步迁进 2018-08-21************************/
+
+
+
+/************************通用 css start******************************/
+/* 通用样式设置  通用样式不能乱动*/
+html{
+    font-size: 10px;/*全局文件大小*/
+}
+body {/*body 设定文字大小 指定*/
+    font:1.6rem "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align:middle;
+}
+
+a {text-decoration:none;}
+a:link {text-decoration:none;}		/* 未访问的链接 */
+a:visited {text-decoration:none;}	/* 已访问的链接 */
+a:hover {text-decoration:none;}	/* 鼠标移动到链接上 */
+a:active {text-decoration:none;}	/* 选定的链接 */
+a{ -webkit-tap-highlight-color:rgba(255,0,0,0);}
+
+.lf {
+    float: left;
+}
+
+.rt {  float: right;  }
+
+.fl{float: left;}
+.fr{float: right;}
+
+.clear:after {/*清除浮动影响*/
+    content: "";
+    clear: both;
+    display: block
+}
+
+.w_100{width: 100%;}
+.m_t10{margin-top: 10px;}
+
+.pointer_events{pointer-events: none;}/*禁用按钮*/
+
+.display_inline_block{
+    display: inline-block;
+}
+.dis {
+    display: none;
+}
+
+.btn1{
+    border:1px solid #638FFA;
+    background:#638FFA;
+    color:#fff;
+    font-size: 16px;
+    margin-left:2%;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius:5px;
+    line-height: 0;
+}
+.btn2{
+    background:#fff;
+    border:1px solid #6892FA;
+    color:#6892FA;
+    padding:0 15px;
+    border-radius: 5px;
+}
+textarea{
+    resize:none;
+}
+.error{
+    color:red;
+}
+
+/*滚动条 样式自定义 start***************************************************************************/
+/*
+::-webkit-scrollbar
+::-webkit-scrollbar-track
+::-webkit-scrollbar-thumb
+::-webkit-scrollbar-thumb:hover
+*/
+
+.xiangxi_neirong,/*通讯录：新增单位，新增人员，修改单位修改人员*/
+.ztree,
+.Neirong_paixu div.Paixudeneirong,
+.select-menu .select-menu-ul,
+.zhishulingdao_table,
+.xinjiantufashijan_content,
+.guanjianzitiqu_rongqi,
+.dianhua—bohao .dianhua ul{
+    overflow-y:auto;
+}
+
+.xiangxi_neirong::-webkit-scrollbar, .ztree::-webkit-scrollbar,
+.Neirong_paixu div.Paixudeneirong::-webkit-scrollbar, .select-menu .select-menu-ul::-webkit-scrollbar,
+.zhishulingdao_table::-webkit-scrollbar, .xinjiantufashijan_content::-webkit-scrollbar,
+.guanjianzitiqu_rongqi::-webkit-scrollbar,.dianhua—bohao .dianhua ul::-webkit-scrollbar{
+    width:4px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.xiangxi_neirong::-webkit-scrollbar-track,
+.ztree::-webkit-scrollbar-track,
+.Paixudeneirong::-webkit-scrollbar-track,
+.select-menu .select-menu-ul::-webkit-scrollbar-track,
+.zhishulingdao_table::-webkit-scrollbar-track,
+.xinjiantufashijan_content::-webkit-scrollbar-track,
+.guanjianzitiqu_rongqi::-webkit-scrollbar-track,
+.dianhua—bohao .dianhua ul::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    background: #fff ;
+}
+
+/*定义滑块 内阴影+圆角*/
+.xiangxi_neirong::-webkit-scrollbar-thumb,
+.ztree::-webkit-scrollbar-thumb,
+.Paixudeneirong::-webkit-scrollbar-thumb,
+.select-menu .select-menu-ul::-webkit-scrollbar-thumb,
+.zhishulingdao_table::-webkit-scrollbar-thumb,
+.xinjiantufashijan_content::-webkit-scrollbar-thumb,
+.guanjianzitiqu_rongqi::-webkit-scrollbar-thumb,
+.dianhua—bohao .dianhua ul::-webkit-scrollbar-thumb,
+.dianhua—bohao .dianhua ul::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+    background-color:#D0DDFD;
+}
+
+.xiangxi_neirong::-webkit-scrollbar-thumb:hover,
+.ztree::-webkit-scrollbar-thumb:hover,
+.Paixudeneirong::-webkit-scrollbar-thumb:hover,
+.select-menu .select-menu-ul::-webkit-scrollbar-thumb:hover,
+.zhishulingdao_table::-webkit-scrollbar-thumb:hover,
+.xinjiantufashijan_content::-webkit-scrollbar-thumb:hover,
+.guanjianzitiqu_rongqi::-webkit-scrollbar-thumb:hover,
+.dianhua—bohao .dianhua ul::-webkit-scrollbar-thumb:hover{
+    border-radius:4px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+    background-color:#638FFA;
+}
+/*滚动条 样式自定义 end*****************************************************************/
+
+
+
+/************************通用 css end*******************************/
+
+
+
+.zuye{background: #f3f6fd;padding-left: 0;padding-right:0px;}/*主页背景颜色*/
+
+
+/************************顶部 css start******************************/
+
+/*修改bootstrap start*/
+.navbar-default {
+    background-color: #fff;
+}
+.navbar {
+    min-height: 74px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default .container-fluid {
+    margin: 8px auto;
+}
+/*修改bootstrap end*/
+
+
+/*logo 与文字 start*/
+.navbar-header img {
+    width: 70px;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.brand_name, .brand_title {
+    color: #3a7fe4;
+    font-weight: bold;
+    margin-bottom: 0;
+    /*padding-top: 10px;*/
+}
+/*.brand_name{
+    font-size: 1.4rem;
+}
+.brand_title{
+    font-size: 2.2rem;
+}*/
+
+
+.brand_text {
+    margin-left: 35px;
+    line-height: 74px;
+    color: #909CDD;
+}
+.brand_text::before{
+    content: ".";
+    height: 30px;
+    width: 2px;
+    background: #909CDD;
+    margin-right: 35px;
+}
+/*logo 与文字 end*/
+
+/*浏览器三个按钮样式 start*/
+.btnsss {
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+.btnsss span {
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.btnsss span:last-child {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btnsss span a:link {
+    text-decoration: none;
+}
+
+.fangda {
+    width: 10px;
+    height: 10px;
+    background: url(../images/qieTu/fd.png) no-repeat;
+    display: inline-block;
+}
+.huanyuan {
+    width: 10px;
+    height: 10px;
+    background: url(../images/qieTu/hy.png) no-repeat;
+    display: inline-block;
+}
+/*浏览器三个按钮样式 end*/
+
+/*时间 start*/
+.weather {
+    color: #909cdd;
+    height: 74px;
+    line-height: 74px;
+}
+.weather .weather-deta {
+    display: inline-block;
+}
+/*时间 end*/
+
+
+/************************顶部 css end********************************/
+
+
+
+
+
+
+/************************侧边栏 css start******************************/
+.zuye .navigation {
+    width: 13%;
+    /*height: 874px;*/
+    height: 989px;
+}
+.navigation {
+    padding-left: 0;
+    padding-right: 0;
+    background: #fff;
+}
+
+.navigation li {
+    height: 48px;
+    width: 100%;
+    line-height: 48px;
+    padding-left: 40px;
+}
+.navigation .active {
+    background: url(../images/nav_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.navigation li a img {
+    margin-right: 20px;
+    margin-top: -8px;
+}
+.navigation .active a {
+    color: #fff;
+}
+
+.navigation li a {
+    color: #909cdd;
+    text-decoration: none;
+}
+
+.navigation .active .Sidebaricon_0 {
+    background-position: -69px -10px;
+}
+
+.navigation .Sidebaricon_0 {
+    width: 25px;
+    height: 25px;
+    background-position: -18px -10px;
+}
+.navigation ul li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-image: url(../images/nav/cebianlanJingling.png);
+}
+
+.navigation li a span {
+    font-size: 18px;
+}
+
+
+.navigation .Sidebaricon_1 {
+    width: 24px;
+    height: 30px;
+    background-position: -18px -43px;
+}
+
+.navigation ul li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-image: url(../images/nav/cebianlanJingling.png);
+}
+
+
+
+
+
+
+.navigation ul li a i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-image: url(../images/nav/cebianlanJingling.png);/*将图标整合在一张图片上，用背景定位的方式将图标显示出来*/
+}
+
+/**************************************/
+.navigation .Sidebaricon_0{/*没有active时的样式*/
+    width: 25px;
+    height: 25px;
+    background-position:-18px -10px;
+}
+.navigation .active .Sidebaricon_0{/*有active时的样式*/
+    background-position:-69px -10px;
+}
+/**************************************/
+.navigation .Sidebaricon_1{/*没有active时的样式*/
+    width: 24px;
+    height: 30px;
+    background-position: -18px -43px;
+}
+.navigation .active .Sidebaricon_1{/*有active时的样式*/
+    background-position: -69px -43px;
+}
+/**************************************/
+.navigation .Sidebaricon_2{/*没有active时的样式*/
+    width: 24px;
+    height: 24px;
+    background-position: -18px -82px;
+}
+.navigation .active .Sidebaricon_2{/*有active时的样式*/
+    background-position: -69px -82px;
+}
+/**************************************/
+.navigation .Sidebaricon_3{/*没有active时的样式*/
+    width:25px;
+    height: 25px;
+    background-position: -18px -115px;
+}
+.navigation .active .Sidebaricon_3{/*有active时的样式*/
+    background-position: -69px -115px;
+}
+/**************************************/
+.navigation .Sidebaricon_4{/*没有active时的样式*/
+    width: 24px;
+    height: 18px;
+    background-position: -18px -149px;
+}
+.navigation .active .Sidebaricon_4{/*有active时的样式*/
+    background-position: -69px -149px;
+}
+/**************************************/
+.navigation .Sidebaricon_5{/*没有active时的样式*/
+    width: 24px;
+    height: 22px;
+    background-position:-18px -176px;
+}
+.navigation .active .Sidebaricon_5{/*有active时的样式*/
+    background-position:-69px -176px;
+}
+/**************************************/
+.navigation .Sidebaricon_6{/*没有active时的样式*/
+    width: 24px;
+    height: 20px;
+    background-position: -18px -207px;
+}
+.navigation .active .Sidebaricon_6{/*有active时的样式*/
+    background-position: -69px -207px;
+}
+/**************************************/
+.navigation .Sidebaricon_7{/*没有active时的样式*/
+    width: 29px;
+    height: 30px;
+    background-position: -18px -236px;
+    margin-right:10px;
+}
+.navigation .active .Sidebaricon_7{/*有active时的样式*/
+    background-position: -64px -236px;
+}
+/**************************************/
+.navigation .Sidebaricon_8{/*没有active时的样式*/
+    width: 24px;
+    height: 23px;
+    background-position: -18px -275px;
+}
+.navigation .active .Sidebaricon_8{/*有active时的样式*/
+    background-position: -69px -275px;
+}
+/**************************************/
+.navigation .Sidebaricon_9{/*没有active时的样式*/
+    width: 25px;
+    height: 20px;
+    background-position: -18px -307px;
+}
+.navigation .active .Sidebaricon_9{/*有active时的样式*/
+    background-position: -69px -307px;
+}
+
+
+
+
+
+
+
+/************************侧边栏 css end********************************/
+
+
+
+
+
+
+
+
+
+
+/************************分页样式修改 css start********************************/
+.whj_jqueryPaginationCss-2 .whj_border {
+    border: 1px solid #ccc;
+}
+.whj_jqueryPaginationCss-2 .whj_bgc {
+    background-color: #fff;
+    color: #5C5C5C;
+    line-height: 24px;
+}
+.whj_jqueryPaginationCss-2 .whj_checked {
+    border: 1px solid #638FFA;
+    background-color: #638FFA;
+    color: #fff;
+}
+.whj_jqueryPaginationCss-2 .whj_hover:hover {
+    background-color: #638FFA;
+    color: #fff;
+    cursor: pointer;
+}
+.whj_jqueryPaginationCss-2 .whj_color {
+    color: #000;
+}
+/************************分页样式修改 css end********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*弹窗插件样式修改 start*/
+.lzy_nav_title{
+    background: #638FFA;
+    color:#fff;
+    margin-left:0;
+    width: calc(100% - 0px);
+    padding-left: 10px;
+}
+.lzy_popup_nav_move {  position: relative;}
+.lzy_nav_close {  position: absolute;  right: 0;  color:#fff !important;}
+/*弹窗插件样式修改 end*/
+
+
+
+
+
+
+.a_button_style{
+    border: 1px solid #638FFA;
+    background: #638FFA;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 2%;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    line-height: 0;
+}
+.a_button_style:link {color:#fff;}		/* 未访问的链接 */
+.a_button_style:visited {color:#fff;}	/* 已访问的链接 */
+.a_button_style:hover {color:#fff;}	/* 鼠标移动到链接上 */
+.a_button_style:active {color:#fff;}	/* 选定的链接 */
+
+
+ .yingji_GIS {
+    padding: 5px 20px;
+    background: #3498D9;
+    border: 1px solid #3498D9;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

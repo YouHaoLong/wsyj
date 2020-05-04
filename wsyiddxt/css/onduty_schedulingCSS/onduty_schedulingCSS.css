@@ -1,0 +1,367 @@
+/*****************************值班与排班css样式***************************************/
+
+
+
+/*滚动条 样式自定义 start***************************************************************************/
+/*
+::-webkit-scrollbar
+::-webkit-scrollbar-track
+::-webkit-scrollbar-thumb
+::-webkit-scrollbar-thumb:hover
+*/
+.DivCss_table_scrollbars::-webkit-scrollbar{
+    width:4px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.DivCss_table_scrollbars::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    background: #fff ;
+}
+
+/*定义滑块 内阴影+圆角*/
+.DivCss_table_scrollbars::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+    background-color:#D0DDFD;
+}
+
+.DivCss_table_scrollbars::-webkit-scrollbar-thumb:hover{
+    border-radius:4px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);
+    background-color:#638FFA;
+}
+/*滚动条 样式自定义 end*****************************************************************/
+
+
+
+.schedual_left{background:#fff;height:978px;margin-left:0.5%;margin-top: 0.5%;}
+.schedual_left .schedual_item{display: flex;/*弹性布局*/  }
+.schedual_left .schedual_item li {
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 25%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.schedual_left .schedual_item li:last-child{
+    border-right:1px solid #ccc;
+}
+
+
+/*通讯录,快捷组，星标，近期联系人 选中时的样式*/
+.schedual_left .schedual_item li.active {background:#638FFA;color: #fff;}
+
+
+/*搜索框 搜索 重置 start*/
+.schedual_left .tongxunlu_sousuokuang{  margin-top:20px;}
+.schedual_left .tongxunlu_sousuokuang form{  width: 98%;  margin:0 auto;}
+.schedual_left .tongxunlu_sousuokuang .form-control{  display: inline-block;  width: 73%;}
+.schedual_left .tongxunlu_sousuokuang .position_relative_span .glyphicon{  position:absolute;top:5px;left: 8px;}
+.schedual_left .tongxunlu_sousuokuang .chaxun input,.tongxunlu_sousuokuang .chongzhi input{width: 65px;}
+.schedual_left .tongxunlu_sousuokuang .chaxun .btn,.tongxunlu_sousuokuang .chongzhi .btn{  padding: 6px 0px 6px 18px;}
+/*搜索框 搜索 重置 end/
+
+/*时间选择插件 start*/
+.dateinput {
+    width: 240px;
+    line-height: 20px;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.dateicon {
+    background-image: url(../../js/jedate/skin/jedate.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+/*时间选择插件 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************右边通讯录********************/
+.schedual_right{
+    border:1px solid #ccc;
+    background: #fff;
+    height: 978px;
+    margin-left:0.5%;
+    margin-top: 0.5%;
+}
+
+
+/*<!--导入 已上传单位 未上传单位 抽查审核 审核记录 节假日录入 删除 -->*/
+.schedual_right .schedual_handle{
+    background:#F5F5F5;
+    border-bottom:1px solid #ccc;
+}
+.schedual_right .schedual_handle ul li{
+    float:left;
+    margin-right:10px;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor:pointer;
+}
+.schedual_right .schedual_handle ul li i{/*背景图标*/
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    vertical-align: sub;
+}
+/*导入 蓝*/
+.schedual_right .schedual_handle ul li i.DaoRu_background {
+    background-position: 0 -143px;
+}
+/*导入 白*/
+.schedual_right .schedual_handle ul li.active i.DaoRu_background {
+    background-position: -24px -143px;
+}
+/*删除 蓝*/
+.schedual_right .schedual_handle ul li i.ShanChu_background {
+    background-position: 0 -198px;
+}
+/*删除白*/
+.schedual_right .schedual_handle ul li.active i.ShanChu_background {
+    background-position: -24px -198px;
+}
+
+/*已上传单位 蓝*/
+.schedual_right .schedual_handle ul li i.Yi_ShangChuanDanWei_background {
+    background-position:-260px -203px;
+}
+/*已上传单位 白*/
+.schedual_right .schedual_handle ul li.active i.Yi_ShangChuanDanWei_background {
+    background-position: -285px -203px;
+}
+/*未上传单位 蓝*/
+.schedual_right .schedual_handle ul li i.Wei_ShangChuanDanWei_background{
+    background-position:-260px -183px;
+}
+/*未上传单位 白*/
+.schedual_right .schedual_handle ul li.active i.Wei_ShangChuanDanWei_background{
+    background-position: -285px -183px;
+}
+/*抽查审核 蓝*/
+.schedual_right .schedual_handle ul li i.ChouChaShenHe_background{
+    background-position: -260px -137px;
+}
+/*抽查审核 白*/
+.schedual_right .schedual_handle ul li.active i.ChouChaShenHe_background{
+    background-position: -285px -137px;
+}
+/*审核记录 蓝*/
+.schedual_right .schedual_handle ul li i.ShenHeJiLu_background{
+    background-position:-260px -113px;
+}
+/*审核记录 白*/
+.schedual_right .schedual_handle ul li.active i.ShenHeJiLu_background{
+    background-position: -285px -113px;
+}
+/*节假日录入 蓝*/
+.schedual_right .schedual_handle ul li i.JieJiaRiLuRu_background{
+    background-position: -260px -161px;
+}
+/*节假日录入 白*/
+.schedual_right .schedual_handle ul li.active i.JieJiaRiLuRu_background{
+    background-position: -285px -161px;
+}
+
+
+
+
+
+
+
+/*分页*/
+.pagination_12{margin-top:10px;}
+
+
+/*导入 start*/
+.putIn{
+    box-shadow:darkgrey 0px 0px 30px 0px;
+    width: 90%;
+    margin:0 auto;
+    border:1px solid #D0DDFD;
+    position: absolute;
+    top: 260px;
+    left: 54px;
+    background: #fff;
+}
+.putIn .putIn_top{/*顶部颜色 灰*/
+    background:#F5F5F5;
+    border-bottom:1px solid #D0DDFD;
+}
+.putIn_guanbi{/*关闭按钮*/
+    display: inline-block;
+    font-size: 2.6rem;
+    margin-right:0px;
+    padding: 0 10px;
+}
+.putIn_guanbi:hover{/*关闭按钮*/
+    background: red;
+    cursor:pointer;
+    color:#fff;
+}
+/*导入 end*/
+
+.anniu_color_border {
+    border: 1px solid #638FFA;
+    background: #638FFA;
+    border-radius: 5px;
+    padding: 4px 15px;
+    color: #fff;
+}
+
+
+/*******************div+css模拟表格 start*******************/
+.DivCss_table_scrollbars{
+    width:100%;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    overflow-y:auto;
+    height: 700px;
+}
+.schedual_choose{padding: 10px 10px;}
+.schedual_choose .schedual_title{/*标题样式*/
+    background:#3A7FE4;
+    color:#fff;
+    font-size: 2.2rem;
+    text-align: center;
+    padding:10px 10px;
+}
+.DivCss_table{  display:table;  width: 100%;  }
+.DivCss_thead{display:table-header-group;}
+.DivCss_row{display:table-row-group;}
+.DivCss_tr,.DivCss_th{  display: table-row;}
+.DivCss_td{  display: table-cell;padding:14px 5px;text-align: center;font-size: 1.4rem;vertical-align: middle;position:relative;  }
+
+.DivCss_thead{background:#E6E6E6;}
+.DivCss_tr .DivCss_td{  border-bottom:1px solid #ccc;}
+.DivCss_thead .DivCss_td{  font-weight: bold;  border-right: 1px solid #ccc;}
+.DivCss_background_transparent{  background: transparent;}
+.DivCss_DivCss_tr_close{  color:#7EA2FB;  cursor:pointer;}
+.DivCss_DivCss_td_color_green{  color:#2ED16C;  }
+.DivCss_DivCss_td_color_red{  color:#E62626;}
+
+/*修改下拉框插件样式 start*/
+.schedual_tab .combo-select{
+    float:left;
+}
+.schedual_tab .combo-input{
+    padding:5px;
+    padding-right: 60px;
+    border-radius: 0;
+    height: 30px;
+}
+/*修改下拉框插件样式 end*/
+
+
+.activity_arrange_2 i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 0 none;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    outline: none;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+}
+.activity_arrange_2 i.Tianjia_anNiu_qiehuan{
+    background-position: -157px -26px;
+    vertical-align: middle;
+}
+.activity_arrange_2 i.Shanchu_anNiu_qiehuan {
+    background-position: -198px -26px;
+    vertical-align: middle;
+}
+
+.DivCss_table .checkbox_Unselected{/*复选框未选中时*/
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    background-position: -285px -279px;
+    vertical-align: sub;
+
+}
+.DivCss_table .checkbox_Selected{/*复选框选中时*/
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    background-position: -285px -300px;
+    vertical-align: sub;
+
+}
+.DivCss_table .checkbox_Unselected input,.DivCss_table .checkbox_Selected input{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.verify,.ChongXinShenHe{
+    cursor:pointer;
+    color:#7EA2FB;
+}
+.dianhuabenrenyuan_bodadianhua .DivCss_DivCss_td_color_green:hover,
+.dianhuabenrenyuan_bodadianhua .DivCss_DivCss_td_color_red:hover{
+   background:#D0DDFD;
+    cursor:pointer;
+}
+
+.XuanZeYuSuiJi{
+    margin-top: 20px;
+}
+
+.XuanZeYuSuiJi div{
+    display: inline-block;
+}
+.XuanZeYuSuiJi .combo-input{
+    padding: 5px;
+    padding-right: 60px;
+    border-radius: 0;
+    height: 30px;
+}
+.XuanZeYuSuiJi_SuiJi{
+ margin-bottom:17px;
+}
+
+.JieJiaRiLuRu_queding_icon{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url(../../images/qieTu/TongXunLu_TuBiaoZengHe.png);
+    background-position: -285px -325px;
+    vertical-align: sub;
+}
+
+/*******************div+css模拟表格 end*******************/
+
+
+
+
+
+
+
+
